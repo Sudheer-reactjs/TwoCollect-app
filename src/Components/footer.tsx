@@ -22,7 +22,7 @@ export default function Footer() {
           <a href="#">Careers</a>
           <a href="#">Press and Media</a>
           <a href="#">Terms and Conditions </a>
-          <a href="#">Privacy Policy s</a>
+          <a href="#">Privacy Policy</a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
           <a href="#">Partners</a>
