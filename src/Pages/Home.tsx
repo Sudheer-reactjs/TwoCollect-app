@@ -39,11 +39,11 @@ const Home = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7 md:mt-[-140px]">
                         {/* Small businesses */}
                         <div className="flex flex-col items-center text-center">
-                            <div className="mb-3 md:mb-5">
+                            <div className="mb-3 md:mb-6">
                                 <img
                                     src={smallbusniess}
                                     alt="smallbusniess"
-                                    className="max-w-[80px] md:max-w-[110px] mx-auto"
+                                    className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
                             <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">Small Businesses</h3>
@@ -55,11 +55,11 @@ const Home = () => {
 
                         {/* Developers */}
                         <div className="flex flex-col items-center text-center md:mt-[160px]">
-                            <div className="mb-3 md:mb-5">
+                            <div className="mb-3 md:mb-6">
                                 <img
                                     src={developers}
                                     alt="developers"
-                                    className="max-w-[80px] md:max-w-[110px] mx-auto"
+                                    className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
                             <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">Developers</h3>
@@ -73,11 +73,11 @@ const Home = () => {
 
                         {/* E-commerce platforms and 3PLs */}
                         <div className="flex flex-col items-center text-center">
-                            <div className="mb-3 md:mb-5">
+                            <div className="mb-3 md:mb-6">
                                 <img
                                     src={commerceplatforms}
                                     alt="commerceplatforms"
-                                    className="max-w-[80px] md:max-w-[110px] mx-auto"
+                                    className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
                             <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">
