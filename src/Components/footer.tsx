@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="max-w-[1466px] mx-auto px-4 sm:px-6 lg:px-8 relative z-5">
 
 
-       <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-7">
+       <div className="grid grid-cols-1 md:grid-cols-4 gap-7">
           <div className="flex flex-col gap-3 text-sm">
           <a href="#">What We Do</a>
           <a href="#">Connect to Domestic and International Carriers</a>
@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="#">Contact Us</a>
          {/* Newsletters */}
          <div className="w-full flex flex-col gap-2 mt-2 mb-4">
-          <p className="text-center md:text-left">
+          <p className="text-left"> 
             Subscribe to Newsletters
           </p>
           <div className="flex flex-col w-full gap-2  ">
