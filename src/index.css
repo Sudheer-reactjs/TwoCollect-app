@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --bg-blue: #002fa7;
+  --bg-blue-hover: #0537b8;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #0c0c0c;
+  background-color: #f0f4f8;
+} 
