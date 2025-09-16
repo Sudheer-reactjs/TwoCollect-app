@@ -12,7 +12,7 @@ export default function   AppRoutes() {
       <main>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/web-app" element={<WebApp />} />
+        <Route path="web-app" element={<WebApp />} />
         <Route path="/company" element={<Company />} />
       </Routes>
       </main>
