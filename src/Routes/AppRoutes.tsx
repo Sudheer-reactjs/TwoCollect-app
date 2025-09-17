@@ -6,6 +6,7 @@ import Footer from "../Components/footer";
 import WebApp from "../Pages/WebApp";
 import Platform from "../Pages/Platform";
 import ShippingCalculator from "../Pages/ShippingCalculator";
+import Pricing from "../Pages/Pricing";
 
 export default function   AppRoutes() { 
   return (
@@ -18,6 +19,7 @@ export default function   AppRoutes() {
         <Route path="platform" element={<Platform />} />
         <Route path="company" element={<Company />} />
         <Route path="shipping-calculator" element={<ShippingCalculator />} />
+        <Route path="pricing" element={<Pricing />} />
       </Routes>
       </main>
       <Footer />
