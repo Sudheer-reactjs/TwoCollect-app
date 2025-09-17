@@ -154,12 +154,6 @@ export default function Header() {
                     >
                       Platform
                     </a>
-                         <a
-                      href="/shipping-insurance"
-                     className="block px-1 py-1 text-[14px]  font-medium "
-                    >
-                      Shipping insurance
-                    </a>
                   </div>
                 )}
               </div>
