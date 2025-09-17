@@ -1,4 +1,17 @@
-import { Facebook, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Linkedin, Youtube, Instagram } from "lucide-react";
+const TwitterX = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 1227"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M714.163 519.284 1160.89 0H1061.9L667.137 450.887 364.241 0H0l468.207 681.821L0 1226.37h98.988l414.93-482.605 317.88 482.605H1200L714.137 519.284h.026Zm-147.365 171.53-48.123-69.77L134.37 79.445h165.04l308.73 447.29 48.123 69.77 409.095 592.01H900.318l-333.52-497.7Z"
+    />
+  </svg>
+);
+
 
 export default function Footer() {
   return (
@@ -20,7 +33,7 @@ export default function Footer() {
           <a href="#">Company</a>
           <a href="#">About TwoCollect</a>
           <a href="#">Careers</a>
-          <a href="#">Press and Media</a>
+          <a href="#">Press and Media</a> 
           <a href="#">Terms and Conditions </a>
           <a href="#">Privacy Policy</a>
         </div>
@@ -48,26 +61,38 @@ export default function Footer() {
           </div>
         </div>
         {/*  Social Media */}
-       <div className="flex gap-4 ">
-            <a
-              href="#"
-              className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-            >
-              <Facebook className="w-5 h-5  text-white" />
-            </a>
-            <a
-              href="#"
-              className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-            >
-              <Linkedin className="w-5 h-5  text-white" />
-            </a>
-            <a
-              href="#"
-              className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-            >
-              <Youtube className="w-5 h-5  text-white" />
-            </a>
-          </div> 
+ <div className="flex gap-4">
+      <a
+        href="#"
+        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+      >
+        <Facebook className="w-5 h-5 text-white" />
+      </a>
+      <a
+        href="#"
+        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+      >
+        <Linkedin className="w-5 h-5 text-white" />
+      </a>
+      <a
+        href="#"
+        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+      >
+        <Youtube className="w-5 h-5 text-white" />
+      </a>
+      <a
+        href="#"
+        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+      >
+        <Instagram className="w-5 h-5 text-white" />
+      </a>
+<a
+        href="#"
+        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+      >
+        <TwitterX className="w-5 h-5 text-white" />
+      </a>
+    </div>
 
         </div>
        </div>

@@ -64,7 +64,7 @@ const PersonalizeDeliveryItem = [
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-12 w-full">
                     {ShipPackagesItem.map((item, index) => ( 
                         <div key={index} className="w-full md:w-[50%] lg:w-[25%] px-[15px] flex flex-col">
-                            <h2 className="text-xl md:text-3xl font-bold mb-3">{item.title}</h2>
+                            <h2 className="text-xl md:text-3xl font-bold mb-3  md:min-h-[72px]">{item.title}</h2>
                             <p>{item.desc}</p>
                         </div>
                     ))}
@@ -88,7 +88,7 @@ const PersonalizeDeliveryItem = [
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-12 w-full">
                     {PersonalizeDeliveryItem.map((item, index) => ( 
                         <div key={index} className="w-full md:w-[50%] lg:w-[25%] px-[15px] flex flex-col">
-                            <h2 className="text-xl md:text-3xl font-bold mb-3">{item.title}</h2>
+                            <h2 className="text-xl md:text-3xl font-bold mb-3 md:min-h-[72px]">{item.title}</h2>
                             <p>{item.desc}</p>
                         </div>
                     ))}
@@ -112,7 +112,7 @@ const PersonalizeDeliveryItem = [
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-12 w-full">
                     {TurnBecomeItem.map((item, index) => ( 
                         <div key={index} className="w-full md:w-[50%] lg:w-[25%] px-[15px] flex flex-col">
-                            <h2 className="text-xl md:text-3xl font-bold mb-3">{item.title}</h2>
+                            <h2 className="text-xl md:text-3xl font-bold mb-3  md:min-h-[72px]">{item.title}</h2>
                             <p>{item.desc}</p>
                         </div>
                     ))}
@@ -136,7 +136,7 @@ const PersonalizeDeliveryItem = [
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-12 w-full">
                     {TwoMethodsItem.map((item, index) => (  
                         <div key={index} className="w-full md:w-[50%] lg:w-[25%] px-[15px] flex flex-col">
-                            <h2 className="text-xl md:text-3xl font-bold mb-3">{item.title}</h2>
+                            <h2 className="text-xl md:text-3xl font-bold mb-3  md:min-h-[72px]">{item.title}</h2>
                             <p>{item.desc}</p>
                         </div>
                     ))}

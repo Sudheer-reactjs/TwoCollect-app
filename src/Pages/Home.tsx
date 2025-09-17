@@ -5,7 +5,7 @@ import commerceplatforms from "../assets/e-commerce-platforms.png"
 const Home = () => {
     return (
         <>
-            <section className="py-10 md:py-16">
+            <section className="py-10 md:py-14">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2  gap-6 md:gap-10 items-center">
                     <div>
                         <h1 className="text-4xl md:text-6xl !leading-[1.4] font-bold mb-2">
@@ -46,10 +46,10 @@ const Home = () => {
                                     className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
-                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">Small Businesses</h3>
+                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-14 max-w-80 md:min-h-[72px]">Small Businesses</h3>
                             <p className="leading-relaxed">
                                 Connect your store, print labels instantly, and access competitive rates from trusted domestic and international carriers.<br />
-                                Give your customers real-time tracking and smooth return options — all without technicalcomplexity.
+                                Give your customers real-time tracking and smooth return options — all without technical complexity.
                             </p>
                         </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
                                     className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
-                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">Developers</h3>
+                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-14 max-w-80 md:min-h-[72px]">Developers</h3>
                             <p className="leading-relaxed">
                                 Build custom shipping experiences with TwoCollect&rsquo;s robust API and detailed documentation.
                                 Manage complex operations securely, integrate with multiple carriers, and launch faster with
@@ -80,7 +80,7 @@ const Home = () => {
                                     className="max-w-[60px] md:max-w-[80px] mx-auto"
                                 />
                             </div>
-                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-20 max-w-80">
+                            <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-14 max-w-80 md:min-h-[72px]">
                                 E-Commerce and Enterprise
                             </h3>
                             <p className="leading-relaxed">
