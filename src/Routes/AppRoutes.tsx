@@ -11,6 +11,8 @@ import Solutions from "../Pages/Solutions";
 import HowItWorks from "../Pages/HowItWorks";
 import Carriers from "../Pages/Carriers";
 import StoreIntegrations from "../Pages/StoreIntegrations";
+import Terms from "../Pages/Terms";
+import Privacy from "../Pages/Privacy";
 
 export default function   AppRoutes() { 
   return (
@@ -28,6 +30,8 @@ export default function   AppRoutes() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="carriers" element={<Carriers />} />
         <Route path="store-integrations" element={<StoreIntegrations />} />
+        <Route path="terms" element={<Terms />} />
+        <Route path="privacy" element={<Privacy />} />
       </Routes>
       </main>
       <Footer />

@@ -30,12 +30,12 @@ export default function Footer() {
           <a href="#">Payment & Wallet Options </a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
-          <a href="#">Company</a>
+          <a href="company">Company</a>
           <a href="#">About TwoCollect</a>
-          <a href="#">Careers</a>
+          <a href="carriers">Careers</a>
           <a href="#">Press and Media</a> 
-          <a href="#">Terms and Conditions </a>
-          <a href="#">Privacy Policy</a>
+          <a href="terms">Terms and Conditions </a>
+          <a href="privacy">Privacy Policy</a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
           <a href="#">Partners</a>

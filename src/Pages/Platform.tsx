@@ -14,7 +14,7 @@ const Platform = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2  gap-6 md:gap-10 items-center">
                     <div>
                         <p className="text-xl md:text-3xl !leading-[1.4]  font-medium ">
-                            TwoCollect’s flexible API helps you automate shipping across multiple carriers from label creation to tracking and returns. Connect, scale, and simplify your logistics at every step.
+                            TwoCollect&rsquo;ble API helps you automate shipping across multiple carriers from label creation to tracking and returns. Connect, scale, and simplify your logistics at every step.
                         </p>
                     </div>
                     <div className="flex justify-center md:justify-end">
@@ -107,7 +107,9 @@ const Platform = () => {
             <section className="pt-6 pb-9 md:pt-14 md:pb-14">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4]  font-bold mx-auto max-w-80 md:max-w-md text-center w-full mb-12">
+                    <h2 className="text-3xl md:text-5xl !leading-[1.4]  font-bold mx-auto max-w-80 md:max-w-md text-center w-full mb-12 
+  bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
+  bg-clip-text text-transparent">
                         Why Choose the TwoCollect API?
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7 md:mt-[-140px]">
