@@ -347,7 +347,8 @@ const Terms = () => {
                                             <li>Data on how you interact with the Platform, such as pages visited, features used, and browsing history.</li></ol>
                                     </li>
                                     <li>
-                                        <strong>Device Information:</strong> IP address, browser type, operating system, and other technical details related to the device used to access the Platform.
+                                        <strong>Device Information:</strong>  <ol className="list-decimal pl-6 space-y-1">
+                                            <li>sed to access the Platform.</li></ol>
                                     </li>
                                     <li>
                                         <strong>Payment Information:</strong> <ol className="list-decimal pl-6 space-y-1"> <li>Payment card details and billing information processed securely by our payment partners.</li></ol>
