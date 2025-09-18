@@ -336,22 +336,22 @@ const Terms = () => {
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
                                         <strong>Personal Information:</strong>
-                                        <ol className="list-decimal pl-6 space-y-1">
+                                        <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>Name, email address, phone number, and billing details provided during account registration.</li>
                                             <li>Shipping information, including recipient names, addresses, and contact details.</li>
                                         </ol>
                                     </li>
                                     <li>
                                         <strong>Usage Information:</strong>
-                                        <ol className="list-decimal pl-6 space-y-1">
+                                        <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>Data on how you interact with the Platform, such as pages visited, features used, and browsing history.</li></ol>
                                     </li>
                                     <li>
-                                        <strong>Device Information:</strong>  <ol className="list-decimal pl-6 space-y-1">
+                                        <strong>Device Information:</strong>  <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>sed to access the Platform.</li></ol>
                                     </li>
                                     <li>
-                                        <strong>Payment Information:</strong> <ol className="list-decimal pl-6 space-y-1"> <li>Payment card details and billing information processed securely by our payment partners.</li></ol>
+                                        <strong>Payment Information:</strong> <ol className="list-decimal pl-6 space-y-1 pt-1"> <li>Payment card details and billing information processed securely by our payment partners.</li></ol>
                                     </li>
                                 </ul>
                             </div>
@@ -370,7 +370,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">6.3. Data Sharing</h3>
                                 <p>We may share your data under the following circumstances:</p>
-                                <ol className="list-decimal pl-6 space-y-1 pt">
+                                <ol className="list-decimal pl-6 space-y-1 pt-1">
                                     <li>
                                         <strong>With Service Providers:</strong>
                                         <ul className="list-disc pl-6 space-y-1 pt-1">
@@ -417,7 +417,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">6.7. User Rights</h3>
                                 <p>Under UAE data protection laws, you have the following rights regarding your personal information:</p>
-                                <ul className="list-decimal pl-6 space-y-1">
+                                <ul className="list-decimal pl-6 space-y-1 pt-1">
                                     <li><strong>Access:</strong> Request a copy of the data we hold about you.</li>
                                     <li><strong>Correction:</strong> Request corrections to inaccurate or incomplete data.</li>
                                     <li><strong>Deletion:</strong> Request deletion of personal data, subject to legal or operational requirements.</li>
@@ -889,7 +889,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">12.2. Termination by <em>TwoCollect</em> </h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li><em>TwoCollect</em>  reserves the right to suspend or terminate a User&rsquo;s account immediately, with or without prior notice, under the following circumstances:</li>
-                                    <ol className="list-decimal pl-6 space-y-1">
+                                    <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Violation of these Terms and Conditions.</li>
                                         <li>Failure to pay Subscription Fees or any other charges due.</li>
                                         <li>Engagement in fraudulent, illegal, or unauthorized activities on the Platform.</li>
@@ -902,7 +902,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">12.3. Effect of Termination</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Upon termination of the account:</li>
-                                    <ol className="list-decimal pl-6 space-y-1">
+                                    <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>The User&rsquo;s access to the Platform and its features will be disabled immediately (or at the end of the billing cycle for user-initiated termination).</li>
                                         <li>All associated data, including transaction history and account settings, may be deleted from the Platform unless otherwise required by law.</li>
                                         <li>Outstanding balances, if any, must be settled within 14 days of termination.</li>
@@ -914,7 +914,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">12.4. Survival of Terms</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Certain provisions of these Terms will survive termination, including but not limited to:</li>
-                                    <ol className="list-decimal pl-6 space-y-1">
+                                    <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Payment obligations (for amounts accrued prior to termination).</li>
                                         <li>Limitations of liability.</li>
                                         <li>Dispute resolution and governing law.</li>
@@ -969,7 +969,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">13.3. Legal Compliance</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Users agree to comply with all applicable UAE laws and regulations when using the Platform, including but not limited to:
-                                        <ol className="list-decimal pl-6 space-y-1">
+                                        <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>Data protection and privacy laws.</li>
                                             <li>Customs, import/export, and logistics regulations.</li>
                                             <li>Consumer protection laws.</li>
