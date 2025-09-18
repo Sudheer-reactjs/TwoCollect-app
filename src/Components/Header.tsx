@@ -10,12 +10,12 @@ export default function Header() {
     setOpenDropdown(openDropdown === menu ? null : menu);
   };
   useEffect(() => {
-  if (isMobileMenuOpen || openDropdown) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "";
-  }
-}, [isMobileMenuOpen, openDropdown]);
+    if (isMobileMenuOpen || openDropdown) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [isMobileMenuOpen, openDropdown]);
 
 
   return (
@@ -26,7 +26,7 @@ export default function Header() {
             {/* Logo */}
             <div className="flex items-center ">
               <a href="/">
-              <img className="max-w-[150px]" src={towcollect} alt="Towcollect" />
+                <img className="max-w-[150px]" src={towcollect} alt="Towcollect" />
               </a>
             </div>
 
@@ -50,16 +50,24 @@ export default function Header() {
                     </a>
                     <a
                       href="/platform"
-                     className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
+                      className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
                       Platform
+                    </a>
+                     <a
+                      href="/solutions"
+                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
+                    >
+                      Solutions
+                    </a>
+                    <a href="/company"  className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom">
+                      Company
                     </a>
                   </div>
                 )}
               </div>
-
-              <a href="/company" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
-                Company
+                 <a href="/how-it-works" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
+                How it works
               </a>
               <a href="/shipping-calculator" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
                 Shipping calculator
@@ -79,20 +87,20 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="absolute top-full mt-2 bg-white shadow-lg rounded-3xl py-6 w-64 z-50 text-center right-[-50%]">
                     <a
-                      href="/technology-partners"
+                      href="/carriers"
                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
-                      Technology Partners
+                      Carriers
                     </a>
                     <a
-                      href="/carriers-partners"
-                     className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
+                      href="/store-integrations"
+                      className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
-                      Carriers Partners
+                      Store Integrations
                     </a>
-                         <a
+                    <a
                       href="/become-artner"
-                     className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
+                      className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
                       Become a Partner
                     </a>
@@ -104,7 +112,7 @@ export default function Header() {
             {/* Desktop Buttons */}
             <div className="hidden lg:flex items-center space-x-5 z-5">
               <a href="#" className="bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
-               START FOR FREE
+                START FOR FREE
               </a>
               <p className="text-xs">or</p>
               <a href="#" className="bg-bluecustom text-white px-10 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
@@ -144,22 +152,31 @@ export default function Header() {
                   <div className="pl-2 space-y-1">
                     <a
                       href="/web-app"
-                     className="block px-1 py-1 text-[14px]  font-medium "
+                      className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Web App
                     </a>
                     <a
                       href="/platform"
-                     className="block px-1 py-1 text-[14px]  font-medium "
+                      className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Platform
+                    </a>
+                    <a
+                      href="/solutions"
+                      className="block px-1 py-1 text-[14px]  font-medium "
+                    >
+                      Solutions
+                    </a>
+                    <a href="/company" className="block px-1 py-1 text-[14px]  font-medium ">
+                      Company
                     </a>
                   </div>
                 )}
               </div>
 
-              <a href="/company" className="block py-2 text-[14px]  font-medium ">
-                Company
+                 <a href="/how-it-works" className="block py-2 text-[14px]  font-medium ">
+                How it works
               </a>
               <a href="/shipping-calculator" className="block py-2 text-[14px]  font-medium ">
                 Shipping calculator
@@ -179,20 +196,20 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="pl-2 space-y-1">
                     <a
-                      href="/technology-partners"
+                      href="/carriers"
                       className="block px-1 py-1 text-[14px]  font-medium "
                     >
-                      Technology Partners
+                      Carriers
                     </a>
                     <a
-                      href="/carriers-partners"
-                    className="block px-1 py-1 text-[14px]  font-medium "
+                      href="/store-integrations"
+                      className="block px-1 py-1 text-[14px]  font-medium "
                     >
-                      Carriers Partners
+                      Store Integrations
                     </a>
-                         <a
+                    <a
                       href="/become-artner"
-                     className="block px-1 py-1 text-[14px]  font-medium "
+                      className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Become a Partner
                     </a>
@@ -202,13 +219,13 @@ export default function Header() {
 
               <hr className="mt-4 mb-6" />
               <div className="flex flex-col justify-center items-center space-y-2">
-               <a href="#" className="bg-bluecustom  text-[14px] text-white px-4 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
-               START FOR FREE
-              </a>
-              <p className="text-xs">or</p>
-              <a href="#" className="bg-bluecustom  text-[14px] text-white px-10 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
-                Login
-              </a>
+                <a href="#" className="bg-bluecustom  text-[14px] text-white px-4 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+                  START FOR FREE
+                </a>
+                <p className="text-xs">or</p>
+                <a href="#" className="bg-bluecustom  text-[14px] text-white px-10 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+                  Login
+                </a>
               </div>
             </div>
           </div>

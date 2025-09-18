@@ -7,6 +7,10 @@ import WebApp from "../Pages/WebApp";
 import Platform from "../Pages/Platform";
 import ShippingCalculator from "../Pages/ShippingCalculator";
 import Pricing from "../Pages/Pricing";
+import Solutions from "../Pages/Solutions";
+import HowItWorks from "../Pages/HowItWorks";
+import Carriers from "../Pages/Carriers";
+import StoreIntegrations from "../Pages/StoreIntegrations";
 
 export default function   AppRoutes() { 
   return (
@@ -17,9 +21,13 @@ export default function   AppRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="web-app" element={<WebApp />} />
         <Route path="platform" element={<Platform />} />
+        <Route path="solutions" element={<Solutions />} />
         <Route path="company" element={<Company />} />
+        <Route path="how-it-works" element={<HowItWorks />} />
         <Route path="shipping-calculator" element={<ShippingCalculator />} />
         <Route path="pricing" element={<Pricing />} />
+        <Route path="carriers" element={<Carriers />} />
+        <Route path="store-integrations" element={<StoreIntegrations />} />
       </Routes>
       </main>
       <Footer />

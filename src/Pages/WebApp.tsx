@@ -118,7 +118,7 @@ const PersonalizeDeliveryItem = [
                     ))}
                     </div>
                 </div>
-            </section>
+            </section> 
 
                         {/* Personalize Your Delivery */}
             <section className=" ">
