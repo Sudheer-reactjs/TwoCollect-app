@@ -38,7 +38,7 @@ const StartFree = () => {
           <div className="flex flex-col items-center justify-center py-10 md:py-16">
             <div className="grid md:grid-cols-2 gap-6 ">
               {/* Origin & Destination */}
-              <div className="bg-white shadow-md rounded-xl p-6">
+              <div className="bg-white shadow-md rounded-xl p-6 ">
                 <h2 className="text-2xl font-medium mb-4">Select Origin & Destination</h2>
                 <div className="flex gap-3 mb-6 bg-[#f0f4f8] p-2 rounded-md">
                   <button

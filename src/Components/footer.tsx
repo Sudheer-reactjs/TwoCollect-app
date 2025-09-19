@@ -43,7 +43,7 @@ export default function Footer() {
           <a href="#">Technology Partners</a>
         </div>
         <div className="flex flex-col  gap-3 text-sm ">
-          <a href="#">Contact Us</a>
+          <a href="contact-us">Contact Us</a>
          {/* Newsletters */}
          <div className="w-full flex flex-col gap-2 mt-2 mb-4">
           <p className="text-left"> 

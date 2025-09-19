@@ -14,6 +14,7 @@ import StoreIntegrations from "../Pages/StoreIntegrations";
 import Terms from "../Pages/Terms";
 import Privacy from "../Pages/Privacy";
 import StartFree from "../Pages/StartFree";
+import ContactUs from "../Pages/ContactUs";
 
 export default function   AppRoutes() { 
   return (
@@ -34,6 +35,7 @@ export default function   AppRoutes() {
         <Route path="terms" element={<Terms />} />
         <Route path="privacy" element={<Privacy />} />
         <Route path="start-free" element={<StartFree />} />
+        <Route path="contact-us" element={<ContactUs />} />
       </Routes>
       </main>
       <Footer />

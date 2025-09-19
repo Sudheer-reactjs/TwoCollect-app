@@ -32,8 +32,8 @@ const Platform = () => {
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-8 w-full ">
 
                         <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px] border-1 border-white">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
+                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={ContactImg}
                                     alt="Contact"
@@ -48,7 +48,7 @@ const Platform = () => {
                             </div>
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
                                 <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={RateComparison}
@@ -61,7 +61,7 @@ const Platform = () => {
                             </div>
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
                                 <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={LabelGenerator}
@@ -74,7 +74,7 @@ const Platform = () => {
                             </div>
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
                                  <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={ShipmentTracking}
@@ -87,7 +87,7 @@ const Platform = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
                                 <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={EasyReturns}

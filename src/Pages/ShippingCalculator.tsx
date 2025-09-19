@@ -1,5 +1,5 @@
-import ContactImg from "../assets/connect.png"
-import RateComparison from "../assets/rate-comparison.png"
+import EstimateShippingCosts from "../assets/estimate-shipping-costs.svg"
+import TransparentPricing from "../assets/transparent-pricing.svg"
 const ShippingCalculator = () => {
 
   return (
@@ -12,12 +12,12 @@ const ShippingCalculator = () => {
                     <div className="flex flex-wrap justify-center mx-[-15px] gap-y-4 md:gap-y-8 w-full ">
 
                         <div className="w-full md:w-[50%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
+                                 <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
-                                    src={ContactImg}
-                                    alt="Contact"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    src={EstimateShippingCosts}
+                                    alt="Estimate Shipping Costs"
+                                    className="w-full mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-4"> Estimate Shipping Costs</h2>
@@ -26,12 +26,12 @@ const ShippingCalculator = () => {
                             </div>
                         </div>
                          <div className="w-full md:w-[50%] px-[15px] flex flex-col pt-[35px]">
-                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                            <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] shadow-md">
+                                  <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
-                                    src={RateComparison}
-                                    alt="Rate Comparison"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    src={TransparentPricing}
+                                    alt="Transparent Pricing"
+                                    className="w-full mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-4">Transparent Pricing, No Surprises</h2>

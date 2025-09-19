@@ -1,6 +1,6 @@
-import Business from "../assets/business.png"
-import developers from "../assets/developers.png"
-import EnterpriseClients from "../assets/enterprise-clients.png"
+import Business from "../assets/business.svg"
+import developers from "../assets/developers.svg"
+import EnterpriseClients from "../assets/enterprise-clients.svg"
 
 const Solutions = () => {
     return (

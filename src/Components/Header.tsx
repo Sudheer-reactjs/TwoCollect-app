@@ -19,7 +19,7 @@ export default function Header() {
 
 
   return (
-    <header className="relative">
+    <header className="sticky top-0 w-full bg-[#f0f4f8] z-10">
       <nav>
         <div className="max-w-[1466px] mx-auto py-4 px-4 sm:px-6 lg:px-8 relative z-5">
           <div className="flex justify-between items-center h-16">
