@@ -46,7 +46,7 @@ export default function HowItWorks() {
     <section className="py-10 md:py-14">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
         <h1 className="text-3xl md:text-5xl !leading-[1.4] font-bold mb-8 text-center md:mb-14">
-          How Shiplifier Works
+          How it works
         </h1>
 
         {/* Steps */}
