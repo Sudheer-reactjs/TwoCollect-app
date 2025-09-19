@@ -99,7 +99,7 @@ export default function HowItWorks() {
                 transition={{ duration: 0.5 }}
                 className="absolute top-[18%] left-0 max-w-60 z-0 overflow-hidden bg-white p-3 rounded-lg shadow-xl"
               >
-                <p className="max-w-2xl mx-auto text-sm text-left">
+                <p className="max-w-2xl mx-auto text-xs md:text-sm text-left">
                   {steps[activeStep - 1].description}
                 </p>
               </motion.div>
