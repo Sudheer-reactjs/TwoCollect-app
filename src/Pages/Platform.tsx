@@ -1,12 +1,12 @@
 import platform from "../assets/platform-page.png"
-import OneIntegration from "../assets/one-integration.png"
-import BuiltScale from "../assets/built-scale.png"
-import DeveloperFriendly from "../assets/developer-friendly.png"
-import ContactImg from "../assets/connect.png"
-import RateComparison from "../assets/rate-comparison.png"
-import LabelGenerator from "../assets/label-generator.png"
-import ShipmentTracking from "../assets/shipment-tracking.png"
-import EasyReturns from "../assets/easyreturns.png"
+import OneIntegration from "../assets/one-integration.svg"
+import BuiltScale from "../assets/built-scale.svg"
+import DeveloperFriendly from "../assets/developer-friendly.svg"
+import ContactImg from "../assets/connect.svg"
+import RateComparison from "../assets/rate-comparison.svg"
+import LabelGenerator from "../assets/label-generator.svg"
+import ShipmentTracking from "../assets/shipment-tracking.svg"
+import EasyReturns from "../assets/easyreturns.svg"
 const Platform = () => {
     return (
         <>
@@ -33,11 +33,11 @@ const Platform = () => {
 
                         <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
                             <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px] border-1 border-white">
                                 <img
                                     src={ContactImg}
                                     alt="Contact"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    className="w-full  mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-3 md:min-h-[72px]">Connect to Leading Carriers with One Integration</h2>
@@ -49,11 +49,11 @@ const Platform = () => {
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
                             <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={RateComparison}
                                     alt="Rate Comparison"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    className="w-full mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-3 md:min-h-[108px]">Rate Comparison</h2>
@@ -62,11 +62,11 @@ const Platform = () => {
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
                             <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={LabelGenerator}
                                     alt="Label Generator"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    className="w-full  mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-3 md:min-h-[108px]">Add “Label generator”  </h2>
@@ -75,11 +75,11 @@ const Platform = () => {
                         </div>
                          <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
                             <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                                 <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={ShipmentTracking}
                                     alt="Shipment Tracking"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    className="w-full  mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-3 md:min-h-[72px]">Shipment Tracking</h2>
@@ -88,11 +88,11 @@ const Platform = () => {
                         </div>
                         <div className="w-full md:w-[33.333%] px-[15px] flex flex-col pt-[35px]">
                             <div className="bg-white px-4 py-8 rounded-lg flex  items-center flex-col md:min-h-[100%] ">
-                                <div className="bg-[#f0f4f8] p-6 rounded-full max-w-[100px] border border-white mt-[-70px]">
+                                <div className="rounded-full max-w-[60px] md:max-w-[80px] mt-[-70px]">
                                 <img
                                     src={EasyReturns}
                                     alt="Easy Returns"
-                                    className="w-full max-w-[60px] mx-auto"
+                                    className="w-full mx-auto"
                                 />
                                 </div>
                                 <h2 className="text-xl md:text-3xl font-bold mt-4 mb-3 md:min-h-[72px]">Easy Returns</h2>

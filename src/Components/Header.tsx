@@ -111,7 +111,7 @@ export default function Header() {
 
             {/* Desktop Buttons */}
             <div className="hidden lg:flex items-center space-x-5 z-5">
-              <a href="#" className="bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+              <a href="start-free" className="bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
                 START FOR FREE
               </a>
               <p className="text-xs">or</p>
@@ -219,7 +219,7 @@ export default function Header() {
 
               <hr className="mt-4 mb-6" />
               <div className="flex flex-col justify-center items-center space-y-2">
-                <a href="#" className="bg-bluecustom  text-[14px] text-white px-4 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+                <a href="start-free" className="bg-bluecustom  text-[14px] text-white px-4 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
                   START FOR FREE
                 </a>
                 <p className="text-xs">or</p>
