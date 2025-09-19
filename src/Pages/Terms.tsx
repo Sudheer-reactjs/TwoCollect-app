@@ -11,11 +11,11 @@ const Terms = () => {
                             <h2 className="text-xl md:text-2xl font-medium">1. Introduction</h2>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">Welcome Message</h3>
-                                <p>Welcome to <em>TwoCollect</em> . Thank you for choosing our Platform your shipping management and aggregation solution.</p>
+                                <p>Welcome to TwoCollect . Thank you for choosing our Platform your shipping management and aggregation solution.</p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">Business Information</h3>
-                                <p><em>TwoCollect</em>  Portal LLC is a company registered in Bay View Tower - Business Bay, UAE, under license number 1425543. In these Terms, “<em>TwoCollect</em> ,” “we”, “our”, or “us” refers to <em>TwoCollect</em>  Portal LLC.</p>
+                                <p>TwoCollect  Portal LLC is a company registered in Bay View Tower - Business Bay, UAE, under license number 1425543. In these Terms, “TwoCollect ,” “we”, “our”, or “us” refers to TwoCollect  Portal LLC.</p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">Purpose of the Terms</h3>
@@ -23,7 +23,7 @@ const Terms = () => {
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">Legal Relationship</h3>
-                                <p><em>TwoCollect</em>  acts as an intermediary that connects Users with third-party shipping and logistics service providers to
+                                <p>TwoCollect  acts as an intermediary that connects Users with third-party shipping and logistics service providers to
                                     streamline order fulfillment, shipping label generation, and tracking. We do not directly provide shipping services.</p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
@@ -43,13 +43,13 @@ const Terms = () => {
                             <p>For the purpose of these Terms and Conditions, the following terms shall have the meanings set out below:</p>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">“Aggregator”</h3>
-                                <p>Refers to <em>TwoCollect</em> , which provides the Platform to connect Users with third-party shipping and logistics service
+                                <p>Refers to TwoCollect , which provides the Platform to connect Users with third-party shipping and logistics service
                                     providers for the purpose of managing shipping operations.
                                 </p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">“Platform”</h3>
-                                <p>Includes our website, mobile application, APIs, and other digital tools or interfaces provided by <em>TwoCollect</em>  to facilitate
+                                <p>Includes our website, mobile application, APIs, and other digital tools or interfaces provided by TwoCollect  to facilitate
                                     shipping and logistics management.</p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
@@ -85,7 +85,7 @@ const Terms = () => {
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">“Privacy Policy”</h3>
-                                <p>Refers to the document outlining how <em>TwoCollect</em>  collects, uses, stores, and protects Users&rsquo; personal data.</p>
+                                <p>Refers to the document outlining how TwoCollect  collects, uses, stores, and protects Users&rsquo; personal data.</p>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">“Terms”</h3>
@@ -99,7 +99,7 @@ const Terms = () => {
 
                         <div className="w-full flex flex-col gap-4">
                             <h2 className="text-xl md:text-2xl font-medium">3. Services Provided</h2>
-                            <p><em>TwoCollect</em>  provides a digital platform designed to simplify and optimize shipping and logistics operations. Our Services include, but are not limited to, the following features:</p>
+                            <p>TwoCollect  provides a digital platform designed to simplify and optimize shipping and logistics operations. Our Services include, but are not limited to, the following features:</p>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">3.1. Shipping Label Generation</h3>
@@ -156,7 +156,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">Important Notes Regarding Services:</h3>
                                 <ol className="list-decimal  pl-6 space-y-1">
-                                    <li><b>Intermediary Role:</b> <em>TwoCollect</em>  acts solely as an intermediary and does not directly provide shipping
+                                    <li><b>Intermediary Role:</b> TwoCollect  acts solely as an intermediary and does not directly provide shipping
                                         services. All shipping and logistics activities are handled by the Service Providers chosen by the User.</li>
                                     <li><b>Service Provider Responsibility:</b> Service Providers are solely responsible for fulfilling shipments, including
                                         delivery timelines, package handling, and addressing any issues arising during transit. </li>
@@ -188,7 +188,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">4.3. Account Security</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Users are responsible for maintaining the confidentiality of their account credentials (username and password).</li>
-                                    <li>Users must notify <em>TwoCollect</em>  immediately if they suspect unauthorized access to their account.</li>
+                                    <li>Users must notify TwoCollect  immediately if they suspect unauthorized access to their account.</li>
                                     <li>Users are liable for all activities conducted under their account, whether authorized or unauthorized.</li>
                                 </ul>
                             </div>
@@ -221,19 +221,19 @@ const Terms = () => {
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Users must ensure that shipments comply with applicable laws, Service Provider policies, and Platform guidelines.</li>
                                     <li>Users are solely responsible for packaging and labeling shipments in accordance with Service Provider requirements.</li>
-                                    <li><em>TwoCollect</em>  does not inspect, open, or handle any shipments directly. As an aggregator, our role is limited to
+                                    <li>TwoCollect  does not inspect, open, or handle any shipments directly. As an aggregator, our role is limited to
                                         facilitating shipping bookings through third-party carriers. The sender (User) is solely responsible for
                                         accurately declaring the shipment contents. If the shipment includes restricted, prohibited, undeclared, or
                                         misdeclared items under UAE law or the carrier&rsquo;s policies, the full legal and financial responsibility lies with
-                                        the sender. <em>TwoCollect</em>  shall bear no liability for any penalties, losses, or disputes arising from such
+                                        the sender. TwoCollect  shall bear no liability for any penalties, losses, or disputes arising from such
                                         shipments.
                                     </li>
                                     <li>“Dangerous goods or hazardous materials may only be shipped with the explicit prior approval of the selected carrier.”</li>
                                     <li>For international shipments, the User (shipper) may choose to assign the responsibility for customs duties,
                                         VAT, and clearance fees to either themselves or the consignee. However, regardless of this selection, the
                                         User remains ultimately liable for all such charges if they are unpaid. If the consignee refuses to pay or if
-                                        destination authorities reject the declared responsibility, the User agrees to fully reimburse <em>TwoCollect</em>  for
-                                        any such costs, including return shipping and related penalties. <em>TwoCollect</em>  acts solely as a logistics
+                                        destination authorities reject the declared responsibility, the User agrees to fully reimburse TwoCollect  for
+                                        any such costs, including return shipping and related penalties. TwoCollect  acts solely as a logistics
                                         aggregator and assumes no liability for customs decisions, delays, or seizure of goods in the destination
                                         country.</li>
                                 </ul>
@@ -241,7 +241,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">4.8. Indemnification</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>Users agree to indemnify and hold harmless <em>TwoCollect</em> , its affiliates, employees, and partners from any
+                                    <li>Users agree to indemnify and hold harmless TwoCollect , its affiliates, employees, and partners from any
                                         claims, damages, or liabilities arising from their use of the Platform, including non-compliance with these
                                         obligations.</li>
                                 </ul>
@@ -265,7 +265,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">5.2. Payment Methods</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Users must provide valid and up-to-date payment information when subscribing to the Platform. Accepted payment methods include [credit/debit cards, online payment gateways, or other applicable methods].</li>
-                                    <li>Users authorize <em>TwoCollect</em>  or its payment processor to charge the provided payment method for the Subscription Fees and any applicable taxes.</li>
+                                    <li>Users authorize TwoCollect  or its payment processor to charge the provided payment method for the Subscription Fees and any applicable taxes.</li>
                                 </ul>
                             </div>
                             <div className="w-full flex flex-col gap-2">
@@ -284,7 +284,7 @@ const Terms = () => {
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">5.5. Failed Payments</h3>
-                                <p>If payment is declined or unsuccessful for any reason, <em>TwoCollect</em>  reserves the right to:</p>
+                                <p>If payment is declined or unsuccessful for any reason, TwoCollect  reserves the right to:</p>
                                 <ol className="list-decimal  pl-6 space-y-1">
                                     <li>Suspend or terminate the User&rsquo;s access to the Platform.</li>
                                     <li>Notify the User of the payment failure and provide a reasonable timeframe to update payment details.</li>
@@ -300,22 +300,22 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">5.7. Price Changes</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  reserves the right to adjust Subscription Fees at any time. Users will be notified of changes at least 30 days prior to the effective date of the new fees.</li>
+                                    <li>TwoCollect  reserves the right to adjust Subscription Fees at any time. Users will be notified of changes at least 30 days prior to the effective date of the new fees.</li>
                                     <li>Continued use of the Platform after the fee change takes effect constitutes acceptance of the new pricing.</li>
                                 </ul>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">5.8. Cancellation</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>Users may cancel their subscription at any time through their account settings or by contacting customer support at <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a></li>
+                                    <li>Users may cancel their subscription at any time through their account settings or by contacting customer support at <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a></li>
                                     <li>Cancellation will take effect at the end of the current billing period, and Users will retain access to the Platform until that time.</li>
                                 </ul>
                             </div>
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">5.9. Refunds</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>Refunds, if applicable, will be issued in accordance with <em>TwoCollect</em> &rsquo;s refund policy.</li>
-                                    <li>Refund requests must be submitted to <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a> and are subject to review and approval by <em><em>TwoCollect</em> .</em></li>
+                                    <li>Refunds, if applicable, will be issued in accordance with TwoCollect &rsquo;s refund policy.</li>
+                                    <li>Refund requests must be submitted to <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a> and are subject to review and approval by TwoCollect.</li>
                                 </ul>
                             </div>
 
@@ -324,7 +324,7 @@ const Terms = () => {
                         <div className="w-full flex flex-col gap-4">
                             <h2 className="text-xl md:text-2xl font-medium">6. Privacy and Data Usage</h2>
                             <p>
-                                <em>TwoCollect</em>  values your privacy and is committed to protecting your personal information.
+                                TwoCollect  values your privacy and is committed to protecting your personal information.
                                 The collection, use, storage, and sharing of data are governed by these Terms and our <a href="privacy" className="underline">
                                     Privacy Policy</a>, which complies with applicable UAE data protection laws, including the UAE Personal
                                 Data Protection Law (Federal Decree-Law No. 45 of 2021).
@@ -400,7 +400,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">6.5. User Consent</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>By providing your personal data during registration or use of the Platform, you consent to its collection, use, and sharing as outlined in these Terms and our Privacy Policy.</li>
-                                    <li>Users may withdraw consent for marketing communications at any time by updating their account settings or contacting <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a>.
+                                    <li>Users may withdraw consent for marketing communications at any time by updating their account settings or contacting <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a>.
                                     </li>
                                 </ul>
                             </div>
@@ -409,7 +409,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">6.6. Data Retention</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>Personal data will be retained only as long as necessary to fulfill the purposes outlined in this section or comply with legal obligations.</li>
-                                    <li>Users may request deletion of their data by contacting <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a>.
+                                    <li>Users may request deletion of their data by contacting <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a>.
                                     </li>
                                 </ul>
                             </div>
@@ -437,7 +437,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">6.9. Contact for Privacy Inquiries</h3>
                                 <p>
-                                    For questions or concerns about your data or to exercise your rights, contact us at: <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a>
+                                    For questions or concerns about your data or to exercise your rights, contact us at: <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a>
                                 </p>
                             </div>
                         </div>
@@ -445,7 +445,7 @@ const Terms = () => {
                         <div className="w-full flex flex-col gap-4">
                             <h2 className="text-xl md:text-2xl font-medium">7. Role of the Aggregator</h2>
                             <p>
-                                <em>TwoCollect</em>  operates as an intermediary platform connecting Users with third-party Service Providers.
+                                TwoCollect  operates as an intermediary platform connecting Users with third-party Service Providers.
                                 Our role is limited to facilitating the selection, integration, and management of shipping services offered
                                 by these providers. By using the Platform, Users acknowledge and agree to the following:
                             </p>
@@ -454,13 +454,13 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">7.1. Independent Third-Party Services</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>The actual shipping, delivery, and related logistics services are provided by independent third-party Service Providers.</li>
-                                    <li><em>TwoCollect</em>  does not own, manage, control, or operate the shipping services offered by the Service Providers on the Platform.</li>
+                                    <li>TwoCollect  does not own, manage, control, or operate the shipping services offered by the Service Providers on the Platform.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">7.2. Limited Responsibility</h3>
-                                <ul className="list-disc pl-6 space-y-1"> <li><em>TwoCollect</em>  is not responsible for the following:
+                                <ul className="list-disc pl-6 space-y-1"> <li>TwoCollect  is not responsible for the following:
                                     <ul className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Shipping delays lost or damaged packages, or any other issues arising from the performance of the Service Providers.</li>
                                         <li>Accuracy, completeness, or reliability of shipping rates, delivery times, or other details provided by Service Providers.</li>
@@ -474,7 +474,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">7.3. Facilitation Only</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>The Platform provides tools for generating shipping labels, comparing rates, and tracking shipments.
-                                        However, <em>TwoCollect</em>  does not guarantee the availability or uninterrupted access to these tools, as they depend on Service Providers
+                                        However, TwoCollect  does not guarantee the availability or uninterrupted access to these tools, as they depend on Service Providers
                                         and third-party integrations.</li>
                                 </ul>
                             </div>
@@ -494,7 +494,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">7.5. Assistance with Disputes</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        While <em>TwoCollect</em>  is not obligated to mediate disputes between Users and Service Providers, we may assist by facilitating communication
+                                        While TwoCollect  is not obligated to mediate disputes between Users and Service Providers, we may assist by facilitating communication
                                         or providing relevant transaction details (e.g., shipment data) to help resolve issues.
                                     </li>
                                     <li>Users acknowledge that final responsibility for resolving disputes lies with the User and the Service Provider.</li>
@@ -504,14 +504,14 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">7.6. No Guarantee of Service Quality</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  does not guarantee the quality, performance, or timeliness of services provided by any Service Provider listed on the Platform.</li>
+                                    <li>TwoCollect  does not guarantee the quality, performance, or timeliness of services provided by any Service Provider listed on the Platform.</li>
                                     <li>Users are encouraged to review Service Provider policies and ratings before making a selection.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">7.7. Limitation of Liability</h3>
-                                <ul className="list-disc pl-6 space-y-1"><li><em>TwoCollect</em>  is not liable for any damages, losses, or costs incurred by the User as a result of:
+                                <ul className="list-disc pl-6 space-y-1"><li>TwoCollect  is not liable for any damages, losses, or costs incurred by the User as a result of:
                                     <ul className="list-disc pl-6 space-y-1 pt-1">
                                         <li>Errors or omissions in shipping labels or shipment information.</li>
                                         <li>Non-performance or delayed performance by a Service Provider.</li>
@@ -525,9 +525,9 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">7.8. Carrier Liability Limits</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        <em>TwoCollect</em>  acts solely as an aggregator and assumes no liability beyond that of the selected carrier.
-                                        By using the <em>TwoCollect</em>  platform, the client acknowledges and agrees that the terms and conditions of the selected carrier—including
-                                        all limitations of liability for loss, damage, or delay—apply in full. <em>TwoCollect</em>  shall not be held responsible for any losses
+                                        TwoCollect  acts solely as an aggregator and assumes no liability beyond that of the selected carrier.
+                                        By using the TwoCollect  platform, the client acknowledges and agrees that the terms and conditions of the selected carrier—including
+                                        all limitations of liability for loss, damage, or delay—apply in full. TwoCollect  shall not be held responsible for any losses
                                         exceeding the compensation thresholds defined by the carrier.
                                     </li>
                                 </ul>
@@ -536,23 +536,23 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">7.9. Use of Carrier Accounts</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>Clients using the <em>TwoCollect</em>  platform may choose between two methods of shipment:
+                                    <li>Clients using the TwoCollect  platform may choose between two methods of shipment:
                                         <ul className="list-disc pl-6 space-y-1 pt-1">
                                             <li>
                                                 Clients may integrate their own shipping carrier accounts. In this case, all billing, liability, and dispute resolution are
                                                 the sole responsibility of the client and the carrier, in accordance with their direct agreement.
                                             </li>
                                             <li>
-                                                Clients may use <em>TwoCollect</em> &rsquo;s carrier accounts. In this case, <em>TwoCollect</em>  acts strictly as an aggregator and booking intermediary.
-                                                <em>TwoCollect</em>  shall not be held responsible or liable for any loss, damage, delay, customs issue, or failure of service.
+                                                Clients may use TwoCollect &rsquo;s carrier accounts. In this case, TwoCollect  acts strictly as an aggregator and booking intermediary.
+                                                TwoCollect  shall not be held responsible or liable for any loss, damage, delay, customs issue, or failure of service.
                                                 All liability is subject to the terms and limits set forth by the selected carrier.
                                             </li>
 
                                         </ul>
                                     </li>
                                     <li>
-                                        <em>TwoCollect</em>  does not assume any legal or financial responsibility for shipments, whether the shipment is booked using the client&rsquo;s
-                                        own carrier account or a carrier account provided by <em>TwoCollect</em> .
+                                        TwoCollect  does not assume any legal or financial responsibility for shipments, whether the shipment is booked using the client&rsquo;s
+                                        own carrier account or a carrier account provided by TwoCollect .
                                     </li>
                                 </ul>
                             </div>
@@ -562,7 +562,7 @@ const Terms = () => {
                             <h2 className="text-xl md:text-2xl font-medium">8. Dispute Resolution</h2>
                             <p>
                                 In the event of a dispute arising from your use of the Platform or Services, including disputes involving
-                                third-party Service Providers, <em>TwoCollect</em>  has established the following resolution framework:
+                                third-party Service Providers, TwoCollect  has established the following resolution framework:
                             </p>
 
                             <div className="w-full flex flex-col gap-2">
@@ -570,9 +570,9 @@ const Terms = () => {
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
                                         For disputes directly related to your use of the Platform, such as subscription fees, billing errors, or
-                                        technical issues, please contact us at  <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a>.
+                                        technical issues, please contact us at  <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a>.
                                     </li>
-                                    <li><em>TwoCollect</em>  will review and respond to your complaint within 7 business days of receipt.</li>
+                                    <li>TwoCollect  will review and respond to your complaint within 7 business days of receipt.</li>
                                 </ul>
                             </div>
 
@@ -584,7 +584,7 @@ const Terms = () => {
                                         must be resolved directly between the User and the Service Provider.
                                     </li>
                                     <li>
-                                        <em>TwoCollect</em>  may provide transaction records, shipment data, or other relevant information to assist in
+                                        TwoCollect  may provide transaction records, shipment data, or other relevant information to assist in
                                         resolving disputes but is not obligated to mediate or resolve such issues.
                                     </li>
                                 </ul>
@@ -595,9 +595,9 @@ const Terms = () => {
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
                                         If a platform-related dispute cannot be resolved through customer support, Users may escalate the issue to
-                                        the management team by submitting a written request to <a href="mailto:admin@<em>TwoCollect</em> .com" className="underline">admin@<em>TwoCollect</em> .com</a>.
+                                        the management team by submitting a written request to <a href="mailto:admin@TwoCollect .com" className="underline">admin@TwoCollect .com</a>.
                                     </li>
-                                    <li><em>TwoCollect</em>  will make reasonable efforts to resolve the matter amicably.</li>
+                                    <li>TwoCollect  will make reasonable efforts to resolve the matter amicably.</li>
                                 </ul>
                             </div>
 
@@ -613,7 +613,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">8.5. Alternative Dispute Resolution (Optional)</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        Where applicable, <em>TwoCollect</em>  may recommend alternative dispute resolution (ADR) mechanisms, such as
+                                        Where applicable, TwoCollect  may recommend alternative dispute resolution (ADR) mechanisms, such as
                                         arbitration or mediation, to resolve disputes outside of court. The ADR process will comply with UAE laws
                                         and be conducted in English and Arabic language.
                                     </li>
@@ -648,12 +648,12 @@ const Terms = () => {
                         <div className="w-full flex flex-col gap-4">
                             <h2 className="text-xl md:text-2xl font-medium">9. Limitation of Liability</h2>
                             <p>
-                                To the fullest extent permitted by UAE law, <em>TwoCollect</em>  limits its liability to Users as follows:
+                                To the fullest extent permitted by UAE law, TwoCollect  limits its liability to Users as follows:
                             </p>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">9.1. No Liability for Service Providers</h3>
-                                <ul className="list-disc pl-6 space-y-1"><li><em>TwoCollect</em>  acts solely as an intermediary and is not liable for any actions, omissions, or performance issues of the Service Providers, including but not limited to:
+                                <ul className="list-disc pl-6 space-y-1"><li>TwoCollect  acts solely as an intermediary and is not liable for any actions, omissions, or performance issues of the Service Providers, including but not limited to:
                                     <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Delays, losses, or damages incurred during shipment.</li>
                                         <li>Errors in shipping rates, delivery times, or service descriptions provided by Service Providers.</li>
@@ -666,8 +666,8 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">9.2. Platform Availability</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>While <em>TwoCollect</em>  strives to ensure the uninterrupted availability and functionality of the Platform, we cannot guarantee that the Platform will always operate without errors or downtime.</li>
-                                    <li><em>TwoCollect</em>  is not liable for any losses resulting from Platform interruptions, delays, or technical failures, including:
+                                    <li>While TwoCollect  strives to ensure the uninterrupted availability and functionality of the Platform, we cannot guarantee that the Platform will always operate without errors or downtime.</li>
+                                    <li>TwoCollect  is not liable for any losses resulting from Platform interruptions, delays, or technical failures, including:
                                         <ul className="list-disc pl-6 space-y-1 pt-1">
                                             <li>Loss of data or transactions.</li>
                                             <li>Inability to access Platform features.</li>
@@ -681,7 +681,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">9.3. Indirect or Consequential Damages</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  is not liable for any indirect, incidental, special, punitive, or consequential damages arising from:
+                                    <li>TwoCollect  is not liable for any indirect, incidental, special, punitive, or consequential damages arising from:
                                         <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>The use or inability to use the Platform or Services.</li>
                                             <li>Loss of profits, revenue, or business opportunities.</li>
@@ -696,7 +696,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">9.4. Errors or Omissions</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        While we strive to provide accurate and up-to-date information, <em>TwoCollect</em>  is not responsible for errors, inaccuracies, or omissions in the Platform or Services.
+                                        While we strive to provide accurate and up-to-date information, TwoCollect  is not responsible for errors, inaccuracies, or omissions in the Platform or Services.
                                     </li>
                                 </ul>
                             </div>
@@ -705,7 +705,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">9.5. Cap on Liability</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        In any event, <em>TwoCollect</em> &rsquo;s total liability to a User for claims arising out of or in connection with the use of the Platform or Services shall not exceed the total amount of Subscription Fees paid by the User in the three (3) months immediately preceding the claim.
+                                        In any event, TwoCollect &rsquo;s total liability to a User for claims arising out of or in connection with the use of the Platform or Services shall not exceed the total amount of Subscription Fees paid by the User in the three (3) months immediately preceding the claim.
                                     </li>
                                 </ul>
                             </div>
@@ -726,7 +726,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">9.7. Force Majeure</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  is not liable for any failure or delay in performance due to circumstances beyond our reasonable control, including but not limited to:
+                                    <li>TwoCollect  is not liable for any failure or delay in performance due to circumstances beyond our reasonable control, including but not limited to:
                                         <ul className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>Acts of God, natural disasters, or severe weather conditions.</li>
                                             <li>Government actions, embargoes, or regulatory restrictions.</li>
@@ -752,7 +752,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">10.1. Ownership of Platform Content</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>All content available on the Platform, including but not limited to text, graphics, logos, icons, images, software, code, and designs (collectively, “Platform Content”), is the exclusive property of <em>TwoCollect</em> or its licensors.</li>
+                                    <li>All content available on the Platform, including but not limited to text, graphics, logos, icons, images, software, code, and designs (collectively, “Platform Content”), is the exclusive property of TwoCollect or its licensors.</li>
                                     <li>Platform Content is protected by applicable copyright, trademark, and intellectual property laws in the UAE and internationally.</li>
                                 </ul>
                             </div>
@@ -760,15 +760,15 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">10.2. Trademarks</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>All trademarks, service marks, trade names, and logos displayed on the Platform (collectively, “Trademarks”) are the property of <em>TwoCollect</em> or third-party licensors.</li>
-                                    <li>Users are not permitted to use any Trademarks without the prior written consent of <em>TwoCollect</em> or the respective trademark owner.</li>
+                                    <li>All trademarks, service marks, trade names, and logos displayed on the Platform (collectively, “Trademarks”) are the property of TwoCollect or third-party licensors.</li>
+                                    <li>Users are not permitted to use any Trademarks without the prior written consent of TwoCollect or the respective trademark owner.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">10.3. Limited License to Users</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  grants Users a limited, non-exclusive, non-transferable, and revocable license to access and use the Platform solely for its intended purpose, as outlined in these Terms.</li>
+                                    <li>TwoCollect  grants Users a limited, non-exclusive, non-transferable, and revocable license to access and use the Platform solely for its intended purpose, as outlined in these Terms.</li>
                                     <li>Users are prohibited from:
                                         <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>Copying, modifying, distributing, displaying, or creating derivative works of Platform Content.</li>
@@ -783,8 +783,8 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">10.4. User Content</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>Any content submitted by Users to the Platform, such as feedback, suggestions, or other communications (“User Content”), becomes the property of <em>TwoCollect</em> upon submission.</li>
-                                    <li>By submitting User Content, Users grant <em>TwoCollect</em> a perpetual, worldwide, royalty-free license to use, reproduce, distribute, and display the content for any purpose.</li>
+                                    <li>Any content submitted by Users to the Platform, such as feedback, suggestions, or other communications (“User Content”), becomes the property of TwoCollect upon submission.</li>
+                                    <li>By submitting User Content, Users grant TwoCollect a perpetual, worldwide, royalty-free license to use, reproduce, distribute, and display the content for any purpose.</li>
                                 </ul>
                             </div>
 
@@ -792,14 +792,14 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">10.5. Third-Party Intellectual Property</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>The Platform may include content or integrations provided by third parties, such as APIs or plugins. All rights to such third-party content belong to their respective owners, and use of such content is subject to their terms and conditions.</li>
-                                    <li><em>TwoCollect</em> is not responsible for any infringement claims or disputes arising from third-party content used on the Platform.</li>
+                                    <li>TwoCollect is not responsible for any infringement claims or disputes arising from third-party content used on the Platform.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">10.6. Intellectual Property Infringement Claims</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>If you believe that any content on the Platform infringes your intellectual property rights, please contact <em>TwoCollect</em> at [Support Email] with the following details:
+                                    <li>If you believe that any content on the Platform infringes your intellectual property rights, please contact TwoCollect at [Support Email] with the following details:
                                         <ol className="list-decimal pl-6 space-y-1 pt-1">
                                             <li>A description of the copyrighted or trademarked work allegedly infringed.</li>
                                             <li>Evidence of ownership or authorization to act on behalf of the owner.</li>
@@ -807,7 +807,7 @@ const Terms = () => {
                                             <li>Your contact information (name, email, phone number).</li>
                                         </ol>
                                     </li>
-                                    <li><em>TwoCollect</em> will investigate and take appropriate action in compliance with UAE intellectual property laws.</li>
+                                    <li>TwoCollect will investigate and take appropriate action in compliance with UAE intellectual property laws.</li>
                                 </ul>
                             </div>
 
@@ -827,7 +827,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">11.1. Updates to the Terms</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em> reserves the right to amend or update these Terms and Conditions at any time to reflect changes in legal requirements, business operations, or service offerings.</li>
+                                    <li>TwoCollect reserves the right to amend or update these Terms and Conditions at any time to reflect changes in legal requirements, business operations, or service offerings.</li>
                                     <li>Any changes to the Terms will be posted on the Platform, and the “Last Updated” date at the top of this document will be revised accordingly.</li>
                                 </ul>
                             </div>
@@ -835,7 +835,7 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">11.2. Notification of Changes</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li>For significant updates to these Terms, <em>TwoCollect</em> will notify Users via email, in-app notifications, or other communication methods provided during account registration.</li>
+                                    <li>For significant updates to these Terms, TwoCollect will notify Users via email, in-app notifications, or other communication methods provided during account registration.</li>
                                     <li>Users are responsible for ensuring their contact information is up-to-date to receive such notifications.</li>
                                 </ul>
                             </div>
@@ -851,15 +851,15 @@ const Terms = () => {
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">11.4. Service Modifications</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em> may modify, add, or remove features, functionalities, or services available on the Platform at any time without prior notice.</li>
-                                    <li>In cases where such changes materially impact Users&rsquo; experience or access to paid services, <em>TwoCollect</em> will provide advance notice and, where applicable, an option to terminate the subscription without penalty.</li>
+                                    <li>TwoCollect may modify, add, or remove features, functionalities, or services available on the Platform at any time without prior notice.</li>
+                                    <li>In cases where such changes materially impact Users&rsquo; experience or access to paid services, TwoCollect will provide advance notice and, where applicable, an option to terminate the subscription without penalty.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
                                 <h3 className="text-lg md:text-xl font-medium">11.5. Pricing Changes</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em> reserves the right to adjust pricing for subscription plans or other services. Users will be notified of pricing changes at least 30 days before they take effect.</li>
+                                    <li>TwoCollect reserves the right to adjust pricing for subscription plans or other services. Users will be notified of pricing changes at least 30 days before they take effect.</li>
                                 </ul>
                             </div>
 
@@ -879,21 +879,21 @@ const Terms = () => {
                                     <li>Users may terminate their subscription and account at any time by:</li>
                                     <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Logging into their account and following the cancellation instructions provided in the account settings, or</li>
-                                        <li>Contacting <em>TwoCollect</em>  at <a href="mailto:support@TwoCollect.com" className="underline"> support@TwoCollect.com</a></li>
+                                        <li>Contacting TwoCollect  at <a href="mailto:support@twocollect.com" className="underline"> support@twocollect.com</a></li>
                                     </ol>
                                     <li>Termination will take effect at the end of the current billing cycle. Users will retain access to the Platform and Services until the end of the billing period but will not receive a prorated refund for any unused time.</li>
                                 </ul>
                             </div>
 
                             <div className="w-full flex flex-col gap-2">
-                                <h3 className="text-lg md:text-xl font-medium">12.2. Termination by <em>TwoCollect</em> </h3>
+                                <h3 className="text-lg md:text-xl font-medium">12.2. Termination by TwoCollect </h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li><em>TwoCollect</em>  reserves the right to suspend or terminate a User&rsquo;s account immediately, with or without prior notice, under the following circumstances:</li>
+                                    <li>TwoCollect  reserves the right to suspend or terminate a User&rsquo;s account immediately, with or without prior notice, under the following circumstances:</li>
                                     <ol className="list-decimal pl-6 space-y-1 pt-1">
                                         <li>Violation of these Terms and Conditions.</li>
                                         <li>Failure to pay Subscription Fees or any other charges due.</li>
                                         <li>Engagement in fraudulent, illegal, or unauthorized activities on the Platform.</li>
-                                        <li>Misuse or abuse of the Platform that disrupts services for other users or causes harm to <em>TwoCollect</em>  or its partners.</li>
+                                        <li>Misuse or abuse of the Platform that disrupts services for other users or causes harm to TwoCollect  or its partners.</li>
                                     </ol>
                                 </ul>
                             </div>
@@ -927,7 +927,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">12.5. Reinstatement of Account</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        Users whose accounts were terminated due to non-payment may request reinstatement by contacting <em>TwoCollect</em>  and resolving any outstanding dues. Reinstatement will be subject to approval and may involve reactivation fees.
+                                        Users whose accounts were terminated due to non-payment may request reinstatement by contacting TwoCollect  and resolving any outstanding dues. Reinstatement will be subject to approval and may involve reactivation fees.
                                     </li>
                                 </ul>
                             </div>
@@ -936,7 +936,7 @@ const Terms = () => {
                                 <h3 className="text-lg md:text-xl font-medium">12.6. Legal and Regulatory Compliance</h3>
                                 <ul className="list-disc pl-6 space-y-1">
                                     <li>
-                                        <em>TwoCollect</em>  may retain certain user data or account information after termination to comply with legal, regulatory, or operational requirements in the UAE.
+                                        TwoCollect  may retain certain user data or account information after termination to comply with legal, regulatory, or operational requirements in the UAE.
                                     </li>
                                 </ul>
                             </div>
@@ -997,31 +997,165 @@ const Terms = () => {
                             </div>
                         </div>
 
-
-
-
-
-
-
-
-
-{/* 
                         <div className="w-full flex flex-col gap-4">
-                            <h2 className="text-xl md:text-2xl font-medium"></h2>
+                            <h2 className="text-xl md:text-2xl font-medium">14. Contact Information</h2>
+                            <p>If you have any questions, concerns, or need assistance regarding these Terms and Conditions, the Platform, or our
+                                Services, please reach out to us through one of the following methods:</p>
 
                             <div className="w-full flex flex-col gap-2">
-                                <h3 className="text-lg md:text-xl font-medium"></h3>
-                                <p></p>
+                                <h3 className="text-lg md:text-xl font-medium">14.1. Customer Support</h3>
                                 <ul className="list-disc pl-6 space-y-1">
-                                    <li></li>
+                                    <li>
+                                        <b>Email:</b> <a href="mailto:support@twocollect.com" className="underline">
+                                            support@twocollect.com
+                                        </a>
+                                    </li>
+                                    <li><b>Live Chat</b></li>
                                 </ul>
                             </div>
+
                             <div className="w-full flex flex-col gap-2">
-                                <h3 className="text-lg md:text-xl font-medium"></h3>
-                                <p></p>
+                                <h3 className="text-lg md:text-xl font-medium">14.2. Mailing Address</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>TwoCollect</li>
+                                    <li>Bay View Tower</li>
+                                    <li>Dubai, UAE</li>
+                                </ul>
                             </div>
 
-                        </div> */}
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">14.3. Working Hours</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>Our customer support team is available during the following hours:
+                                        <ul className="pt-1 space-y-1">
+                                            <li>Working hours: </li>
+                                            <li>Monday to Saturday, 9:00 AM to 6:00 PM.</li>
+                                            <li>Sunday, Closed.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Requests or inquiries submitted outside of these hours will be addressed on the next business day.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">14.4. Response Time</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>
+                                        We strive to respond to all inquiries within 48 hours. However, during peak times, responses may take longer.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">14.5. Escalation of Issues</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>
+                                        For unresolved concerns or escalations, please email our management team directly at <a href="mailto:admin@twocollect.com" className="underline">
+                                            admin@twocollect.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">14.6. Reporting Issues</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>
+                                        If you encounter technical issues, billing discrepancies, or suspected unauthorized access to your account,
+                                        please contact us immediately at <a href="mailto:support@twocollect.com" className="underline">
+                                            support@twocollect.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">14.7. Feedback and Suggestions</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>
+                                        We welcome feedback and suggestions to improve our Platform and Services. You can submit your feedback via email at <a href="mailto:contact@twocollect.com" className="underline">
+                                            contact@twocollect.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className="w-full flex flex-col gap-4">
+                            <h2 className="text-xl md:text-2xl font-medium">15. Additional Features</h2>
+                            <p>
+                                TwoCollect may offer additional features or programs to enhance your experience on the Platform. These features are
+                                optional and subject to specific terms and conditions, as outlined below:
+                            </p>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.1. Promotional Offers</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>From time to time, TwoCollect may provide promotional discounts, free trials, or special offers to Users.</li>
+                                    <li>These promotions are subject to specific terms, including eligibility criteria, duration, and usage limits.</li>
+                                    <li>TwoCollect reserves the right to modify, suspend, or terminate any promotional offer at its sole discretion without prior notice.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.2. Loyalty Programs</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>Users may participate in loyalty programs, which allow them to earn points, credits, or rewards for using the Platform.</li>
+                                    <li>Loyalty program terms, including the accumulation, redemption, and expiration of rewards, will be detailed in a separate policy or section of the Platform.</li>
+                                    <li>TwoCollect reserves the right to discontinue or modify loyalty programs at any time.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.3. Referral Programs</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>Users may invite others to join the Platform through referral programs. Rewards for referrals are subject to:</li>
+                                    <ol className="list-decimal pl-6 space-y-1 pt-1">
+                                        <li>Successful sign-up and subscription by the referred User.</li>
+                                        <li>Compliance with referral program terms, which prohibit fraudulent or spam-like referral activities.</li>
+                                    </ol>
+                                    <li>Referral program terms and rewards are subject to change.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.4. Advertisements and Sponsored Content</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>The Platform may display advertisements or sponsored content from third-party partners.</li>
+                                    <li>TwoCollect is not responsible for the accuracy, quality, or legality of third-party advertisements or content. Users interacting with such content do so at their own risk and are subject to the advertiser’s terms.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.5. Beta Features</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>TwoCollect may release beta features for testing purposes. These features are provided on an “as-is” basis and may be incomplete or subject to change.</li>
+                                    <li>TwoCollect makes no guarantees regarding the functionality or availability of beta features.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.6. Add-On Services</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>Users may purchase optional add-ons or integrations to extend the functionality of the Platform (e.g., advanced analytics tools or premium customer support).</li>
+                                    <li>Add-on services may require separate fees and are subject to specific terms outlined at the time of purchase.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.7. Custom Agreements</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>For enterprise or high-volume Users, TwoCollect may offer custom service agreements tailored to specific needs. These agreements will supersede the general Terms to the extent of any inconsistencies.</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-full flex flex-col gap-2">
+                                <h3 className="text-lg md:text-xl font-medium">15.8. Termination of Features</h3>
+                                <ul className="list-disc pl-6 space-y-1">
+                                    <li>TwoCollect reserves the right to modify, suspend, or discontinue any additional features or programs at any time. Where possible, Users will be notified in advance of such changes.</li>
+                                </ul>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

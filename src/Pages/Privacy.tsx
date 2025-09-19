@@ -5,7 +5,7 @@ const Privacy = () => {
             <section className="py-6 md:py-14 trems ">
                 <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  flex flex-col items-center justify-center ">
                     <h1 className="text-3xl md:text-5xl !leading-[1.4] font-bold mb-4 text-center ">
-                        TwoCollect Privacy Policy
+                        Privacy Policy
                     </h1>
                     <div className="w-full flex flex-col gap-5 md:gap-8 text-sm md:text-base">
 
@@ -33,11 +33,11 @@ const Privacy = () => {
                                     with any terms of service or agreement between you and TwoCollect for the Services you use.</p>
                                 <p>This Policy does not apply to personal data for which we act as a data processor. In such cases,
                                     our handling of personal data is governed by the applicable terms of service or data processing
-                                    agreement between you and <em>TwoCollect</em>.
+                                    agreement between you and TwoCollect.
                                 </p>
                                 <p>When our clients use our platform to generate shipments through third-party carriers,
                                     TwoCollect acts as a data processor on behalf of the client. However, for all platform-related
-                                    services such as account creation, billing, or support, <em>TwoCollect</em> acts as the data controller</p>
+                                    services such as account creation, billing, or support, TwoCollect acts as the data controller</p>
                             </div>
                         </div>
 
