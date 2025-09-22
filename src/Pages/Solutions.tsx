@@ -1,6 +1,7 @@
 import Business from "../assets/business.svg"
 import developers from "../assets/developers.svg"
 import EnterpriseClients from "../assets/enterprise-clients.svg"
+import LoginButton from "../Components/LoginButton";
 
 const Solutions = () => {
     return (
@@ -68,6 +69,7 @@ scalability, speed, and centralized control. Custom onboarding and carrier negot
                     </div>
                 </div>
             </section>
+            <LoginButton />
         </>
     );
 }

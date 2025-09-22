@@ -1,4 +1,5 @@
 import ShipPackages from "../assets/ship-packages.png";
+import LoginButton from "../Components/LoginButton";
 const WebApp = () => {
 const ShipPackagesItem = [
     { title: "Examine carrier prices", desc: "Obtain current rates from many carriers to determine the optimal fit." },
@@ -34,12 +35,12 @@ const PersonalizeDeliveryItem = [
     return (
         <>
             <section className="pt-6 md:pt-14 pb-9 min-h-[90svh] flex items-center justify-center">
-                <div className="max-w-xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-4 items-center">
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4] font-bold  w-full ">
-                        Create Shipping Labels with twocollect
+                <div className="max-w-3xl w-full mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col gap-4 items-center">
+                    <h2 className="text-4xl md:text-6xl !leading-[1.4] font-bold  w-full ">
+                        Create Shipping Labels with TwoCollect
                     </h2>
-                    <p>The shipping solution that automates and streamlines your process to save you time and money.</p>
-                    <a href="#" className="bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">START FOR FREE</a>
+                    <p className="text-xl md:text-2xl">The shipping solution that automates and streamlines your process to save you time and money.</p>
+                    <a href="#" className=" cartoon-btn bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">START FOR FREE</a>
                 </div>
             </section>
             
@@ -124,7 +125,7 @@ const PersonalizeDeliveryItem = [
             <section className=" ">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 !pt-4 text-center flex flex-col gap-4 items-center">
                     <h2 className="text-3xl md:text-5xl !leading-[1.4] font-bold  w-full ">
-                       Two Methods to Apply twocollect
+                       Two Methods to Apply TwoCollect
                     </h2>
                     <p className="text-xl md:text-2xl font-medium !leading-snug">We offer two ways to integrate shipping with your order fulfillment flow so you can choose the best option for your business</p>
                 </div>
@@ -143,7 +144,7 @@ const PersonalizeDeliveryItem = [
                     </div>
                 </div>
             </section>
-
+           <LoginButton />
         </>
     );
 }

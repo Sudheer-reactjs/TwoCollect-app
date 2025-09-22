@@ -1,6 +1,7 @@
 import AboutUsIcon from "../assets/about-us.svg"
 import CareersIcon from "../assets/careers-icon.svg"
 import PressMediaIcon from "../assets/press-media-new.svg"
+import LoginButton from "../Components/LoginButton";
 const Company = () => {
     return (
         <>
@@ -65,7 +66,7 @@ const Company = () => {
                     </div>
                 </div>
             </section>
-
+           <LoginButton />
         </>
     );
 }

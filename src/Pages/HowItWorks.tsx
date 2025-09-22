@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Step1 from "../assets/laptop.png";
+import LoginButton from "../Components/LoginButton";
 
 const steps = [
     {
@@ -40,12 +41,14 @@ const steps = [
 ];
 
 export default function HowItWorks() {
-    const [activeStep, setActiveStep] = useState(2);
+    const [activeStep, setActiveStep] = useState(1);
 
     return (
+        <>
         <section className="py-10 md:py-14">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-                <h1 className="text-3xl md:text-5xl !leading-[1.4] font-bold mb-8 text-center md:mb-14">
+                <h1 className=" text-3xl md:text-5xl !leading-[1.4] font-bold mb-8 text-center md:mb-14   bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
+  bg-clip-text text-transparent">
                     How it works
                 </h1>
 
@@ -95,9 +98,9 @@ export default function HowItWorks() {
                                 animate={{ x: 0, opacity: 1 }}
                                 exit={{ x: -50, opacity: 0 }}
                                 transition={{ duration: 0.5 }}
-                                className="absolute top-[18%] left-0 max-w-60 z-0 overflow-hidden bg-white p-3 rounded-lg shadow-xl"
+                                className="absolute top-[18%] left-0 max-w-80 z-0 overflow-hidden bg-white p-3 rounded-lg shadow-xl"
                             >
-                                <p className="max-w-2xl mx-auto text-xs md:text-sm text-left">
+                                <p className="max-w-2xl mx-auto text-sm md:text-base text-left">
                                     {steps[activeStep - 1].description}
                                 </p>
                             </motion.div>
@@ -106,5 +109,7 @@ export default function HowItWorks() {
                 </div>
             </div>
         </section>
+        <LoginButton />
+        </>
     );
 }

@@ -249,7 +249,7 @@ const StartFree = () => {
 
             {/* Submit Button */}
             <div className="mt-6 w-full text-center">
-              <button className="bg-bluecustom hover:bg-bluecustomhover text-white font-semibold px-6 py-3 rounded-md shadow-md transition w-full max-w-xs mx-auto">
+              <button className="bg-bluecustom hover:bg-bluecustomhover text-white font-semibold px-6 py-3 rounded-full shadow-md transition w-full max-w-xs mx-auto">
                 Calculate Estimated Rates
               </button>
             </div>

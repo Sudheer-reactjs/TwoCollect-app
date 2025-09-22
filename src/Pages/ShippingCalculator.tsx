@@ -41,12 +41,16 @@ you a clear breakdown of pricing, transit times, and carrier options.</p>
                         </div>
 
                     </div>
-                    <div className="w-full text-center flex justify-center items-center mt-10">
-                      <a href="start-free" className=" w-full max-w-64 block bg-bluecustom text-white px-4 py-3 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">START FOR FREE</a>
-                    </div>
+                  
                 </div>
             </section>
-
+                   <section className="py-10 md:py-14 !pt-3">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  w-full text-center">
+                <a href="start-free" className="cartoon-btn bg-[#a7bd37] inline-block text-white px-5 py-2 rounded-full  transition-colors duration-200 font-medium">
+                    Calculate Rate
+                </a>
+            </div>
+        </section>
     </>
   );
 };

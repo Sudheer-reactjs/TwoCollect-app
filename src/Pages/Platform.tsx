@@ -7,6 +7,7 @@ import RateComparison from "../assets/rate-comparison.svg"
 import LabelGenerator from "../assets/label-generator.svg"
 import ShipmentTracking from "../assets/shipment-tracking.svg"
 import EasyReturns from "../assets/easyreturns.svg"
+import LoginButton from "../Components/LoginButton"
 const Platform = () => {
     return (
         <>
@@ -14,7 +15,8 @@ const Platform = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2  gap-6 md:gap-10 items-center">
                     <div>
                         <p className="text-xl md:text-3xl !leading-[1.4]  font-medium ">
-                            TwoCollect&rsquo;ble API helps you automate shipping across multiple carriers from label creation to tracking and returns. Connect, scale, and simplify your logistics at every step.
+                           TwoCollect&rsquo;s flexible API helps you automate shipping across multiple carriers from label
+creation to tracking and returns. Connect, scale, and simplify your logistics at every step.
                         </p>
                     </div>
                     <div className="flex justify-center md:justify-end">
@@ -160,6 +162,7 @@ const Platform = () => {
                     </div>
                 </div>
             </section>
+            <LoginButton />
         </>
     );
 }

@@ -61,38 +61,49 @@ export default function Footer() {
           </div>
         </div>
         {/*  Social Media */}
- <div className="flex gap-4">
-      <a
-        href="#"
-        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-      >
-        <Facebook className="w-5 h-5 text-white" />
-      </a>
-      <a
-        href="#"
-        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-      >
-        <Linkedin className="w-5 h-5 text-white" />
-      </a>
-      <a
-        href="#"
-        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-      >
-        <Youtube className="w-5 h-5 text-white" />
-      </a>
-      <a
-        href="#"
-        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-      >
-        <Instagram className="w-5 h-5 text-white" />
-      </a>
-<a
-        href="#"
-        className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
-      >
-        <TwitterX className="w-5 h-5 text-white" />
-      </a>
-    </div>
+<div className="flex gap-4">
+  <a
+    href="https://www.facebook.com/profile.php?id=61567267283120"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+  >
+    <Facebook className="w-5 h-5 text-white" />
+  </a>
+  <a
+    href="https://linkedin.com/twocollect"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+  >
+    <Linkedin className="w-5 h-5 text-white" />
+  </a>
+  <a
+    href="https://youtu.be/QEHbCpWbFQw"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+  >
+    <Youtube className="w-5 h-5 text-white" />
+  </a>
+  <a
+    href="https://www.instagram.com/twocollectonly/?igsh=M2dncDk5eTIyem1x&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+  >
+    <Instagram className="w-5 h-5 text-white" />
+  </a>
+  <a
+    href="https://x.com/TwoCollect"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
+  >
+    <TwitterX className="w-5 h-5 text-white" />
+  </a>
+</div>
+
 
         </div>
        </div>

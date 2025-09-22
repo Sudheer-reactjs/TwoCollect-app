@@ -87,19 +87,19 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="absolute top-full mt-2 bg-white shadow-lg rounded-3xl py-6 w-64 z-50 text-center right-[-50%]">
                     <a
-                      href="/carriers"
+                      href="carriers"
                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
                       Carriers
                     </a>
                     <a
-                      href="/store-integrations"
+                      href="store-integrations"
                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
                       Store Integrations
                     </a>
                     <a
-                      href="/become-artner"
+                      href="become-partner"
                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
                       Become a Partner
@@ -115,7 +115,7 @@ export default function Header() {
                 START FOR FREE
               </a>
               <p className="text-xs">or</p>
-              <a href="#" className="bg-bluecustom text-white px-10 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+              <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] text-bluecustom hover:text-white hover:bg-bluecustom">
                 Login
               </a>
             </div>
@@ -196,19 +196,19 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="pl-2 space-y-1">
                     <a
-                      href="/carriers"
+                      href="carriers"
                       className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Carriers
                     </a>
                     <a
-                      href="/store-integrations"
+                      href="store-integrations"
                       className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Store Integrations
                     </a>
                     <a
-                      href="/become-artner"
+                      href="become-partner"
                       className="block px-1 py-1 text-[14px]  font-medium "
                     >
                       Become a Partner
@@ -223,7 +223,7 @@ export default function Header() {
                   START FOR FREE
                 </a>
                 <p className="text-xs">or</p>
-                <a href="#" className="bg-bluecustom  text-[14px] text-white px-10 py-3 rounded-full text-center w-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">
+                <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] text-bluecustom">
                   Login
                 </a>
               </div>

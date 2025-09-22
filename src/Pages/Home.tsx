@@ -2,6 +2,7 @@ import vnimc from "../assets/vnimc_1.png"
 import smallbusniess from "../assets/small-businesses.png"
 import developers from "../assets/developers.png"
 import commerceplatforms from "../assets/e-commerce-platforms.png"
+import LoginButton from "../Components/LoginButton"
 const Home = () => {
     return (
         <>
@@ -92,7 +93,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+           <LoginButton />
         </>
     );
 }
