@@ -3,12 +3,12 @@ import LoginButton from "../Components/LoginButton";
 const WebApp = () => {
 const ShipPackagesItem = [
     { title: "Examine carrier prices", desc: "Obtain current rates from many carriers to determine the optimal fit." },
-    { title: "Reduce delivery costs", desc: "Get the greatest deals on UPS, DHL, USPS, and more." },
-    { title: "Simple integration", desc: "Get the greatest deals on UPS, DHL, USPS, and more." },
+    { title: "Reduce delivery costs", desc: "Get the greatest deals on carriers." },
+    { title: "Simple integration", desc: "Get the greatest deals on carriers." },
     { title: "Create labels automatically", desc: "Obtain current rates from many carriers to determine the optimal fit." },
-    { title: "CSV import", desc: "Get the greatest deals on UPS, DHL, USPS, and more." },
+    { title: "CSV import", desc: "Get the greatest deals on carriers." },
     { title: "Address validation", desc: "Use our integrated global address validation to prevent unsuccessful deliveries." },
-    { title: "Plan your pickups.", desc: "Arrange a carrier pickup using DHL Express or the USPS." },
+    { title: "Plan your pickups.", desc: "Arrange a carrier pickup using carriers." },
   ];
 
 const PersonalizeDeliveryItem = [
@@ -23,8 +23,6 @@ const PersonalizeDeliveryItem = [
     { title: "Manifests", desc: "Produce daily manifests and SCAN forms in order to meet carrier specifications." },
     { title: "Reporting and analytics", desc: "A quick overview of your shipping expenses and effectiveness" },
     { title: "Returns", desc: "To cut expenses, ask for reimbursement for any wasted labels." },
-    { title: "Refunds", desc: "Request refunds for unused labels to minimize costs." },
-    { title: "Partial satisfaction", desc: "Divide an order for backordered goods and inventory held in various warehouses into several shipments." },
   ];
 
  const TwoMethodsItem = [
@@ -40,7 +38,7 @@ const PersonalizeDeliveryItem = [
                         Create Shipping Labels with TwoCollect
                     </h2>
                     <p className="text-xl md:text-2xl">The shipping solution that automates and streamlines your process to save you time and money.</p>
-                    <a href="#" className=" cartoon-btn bg-bluecustom text-white px-4 py-2 rounded-full hover:bg-bluecustomhover transition-colors duration-200 font-medium">START FOR FREE</a>
+                    <a href="start-free" className="cartoon-btn bg-[#a7bd37] inline-block text-white px-8 py-4 rounded-full  transition-colors duration-200 font-medium">START FOR FREE</a>
                 </div>
             </section>
             
@@ -75,8 +73,10 @@ const PersonalizeDeliveryItem = [
 
             {/* Personalize Your Delivery */}
             <section className=" ">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 text-white text-center flex flex-col gap-4 items-center bg-black">
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4] font-bold  w-full ">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 md:pb-12  text-center flex flex-col gap-4 items-center">
+                    <h2 className="text-4xl md:text-6xl !leading-[1.4] font-bold  w-full 
+                     bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
+  bg-clip-text text-transparent">
                         Personalize Your Delivery
                     </h2>
                     <p className="text-xl md:text-2xl font-medium max-w-md !leading-snug">Customize customer notifications, shipping labels, and other materials to provide a distinctive, branded experience.</p>
@@ -99,8 +99,10 @@ const PersonalizeDeliveryItem = [
 
             {/* Personalize Your Delivery */}
             <section className=" ">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 text-white text-center flex flex-col gap-4 items-center bg-black">
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4] font-bold  w-full ">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 md:pb-12  text-center flex flex-col gap-4 items-center">
+                    <h2 className="text-4xl md:text-6xl !leading-[1.4] font-bold  w-full 
+                     bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
+  bg-clip-text text-transparent">
                         Turn become a Power Shipper
                     </h2>
                     <p className="text-xl md:text-2xl font-medium !leading-snug">Make advantage of strong shipping instruments. Easily handle consumer requests and orders</p>
@@ -123,8 +125,10 @@ const PersonalizeDeliveryItem = [
 
                         {/* Personalize Your Delivery */}
             <section className=" ">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-16 !pt-4 text-center flex flex-col gap-4 items-center">
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4] font-bold  w-full ">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 md:pb-12  text-center flex flex-col gap-4 items-center">
+                    <h2 className="text-4xl md:text-6xl !leading-[1.4] font-bold  w-full 
+                     bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
+  bg-clip-text text-transparent">
                        Two Methods to Apply TwoCollect
                     </h2>
                     <p className="text-xl md:text-2xl font-medium !leading-snug">We offer two ways to integrate shipping with your order fulfillment flow so you can choose the best option for your business</p>

@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="flex flex-col  gap-3 text-sm">
           <a href="company">Company</a>
           <a href="#">About TwoCollect</a>
-          <a href="carriers">Careers</a>
+          <a href="shipping-carriers">Shipping Carriers</a>
           <a href="#">Press and Media</a> 
           <a href="terms">Terms and Conditions </a>
           <a href="privacy">Privacy Policy</a>
@@ -71,7 +71,7 @@ export default function Footer() {
     <Facebook className="w-5 h-5 text-white" />
   </a>
   <a
-    href="https://linkedin.com/twocollect"
+    href="https://www.linkedin.com/company/twocollect"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"
@@ -79,7 +79,7 @@ export default function Footer() {
     <Linkedin className="w-5 h-5 text-white" />
   </a>
   <a
-    href="https://youtu.be/QEHbCpWbFQw"
+    href="https://www.youtube.com/channel/UCSwW4hhV4jxxAHyJZbf9Kcg"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-[#0235a8] p-2 rounded-lg hover:bg-[#156ab0] transition"

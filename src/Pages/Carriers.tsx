@@ -17,14 +17,14 @@ const Carriers = () => {
           </p>
 
           {/* Logos - Node Style */}
-          <div className="relative w-full max-w-md mx-auto flex items-center justify-center flex-col">
+          <div className="relative w-full mx-auto flex items-center justify-center flex-col">
 
             {/* Carrier Nodes */}
             <div className="">
               <img src={ShippingCarriersimage} alt="Shipping Carriers Image" className="object-contain" />
             </div>
             {/* Message */}
-          <p className="mt-4 md:text-lg  ">
+          <p className="mt-8 md:text-lg  ">
             These are just some of our carrier partners. We work with more
             providers behind the scenes.
           </p>

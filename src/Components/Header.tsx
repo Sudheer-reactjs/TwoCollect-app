@@ -87,10 +87,10 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="absolute top-full mt-2 bg-white shadow-lg rounded-3xl py-6 w-64 z-50 text-center right-[-50%]">
                     <a
-                      href="carriers"
+                      href="shipping-carriers"
                       className="block px-4 py-4 text-[18px]  font-medium  hover:text-white hover:bg-bluecustom"
                     >
-                      Carriers
+                     Shipping Carriers
                     </a>
                     <a
                       href="store-integrations"
@@ -196,10 +196,10 @@ export default function Header() {
                 {openDropdown === "partners" && (
                   <div className="pl-2 space-y-1">
                     <a
-                      href="carriers"
+                      href="shipping-carriers"
                       className="block px-1 py-1 text-[14px]  font-medium "
                     >
-                      Carriers
+                      Shipping Carriers
                     </a>
                     <a
                       href="store-integrations"

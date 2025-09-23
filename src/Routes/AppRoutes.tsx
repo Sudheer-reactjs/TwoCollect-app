@@ -32,7 +32,7 @@ export default function   AppRoutes() {
         <Route path="how-it-works" element={<HowItWorks />} />
         <Route path="shipping-calculator" element={<ShippingCalculator />} />
         <Route path="pricing" element={<Pricing />} />
-        <Route path="carriers" element={<Carriers />} />
+        <Route path="shipping-carriers" element={<Carriers />} />
         <Route path="store-integrations" element={<StoreIntegrations />} />
         <Route path="terms" element={<Terms />} />
         <Route path="privacy" element={<Privacy />} />

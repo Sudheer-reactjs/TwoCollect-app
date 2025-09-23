@@ -166,9 +166,9 @@ export default function BecomePartner() {
 
                         {/* Terms and Conditions */}
                         <div className="text-sm text-gray-600">
-                            By clicking "Submit", you agree to receive emails, promotions, newsletters and general information from OTO. In addition, you also agree to OTO's{" "}
+                            By clicking Submit, you consent to receive updates, newsletters, promotional offers, and other information from TwoCollect. You also acknowledge and agree to TwoCollect’s{" "}
                             <a href="privacy" className="text-bluecustom hover:underline">
-                                Privacy Policy
+                               Privacy Policy
                             </a>{" "}
                             and{" "}
                             <a href="terms" className="text-bluecustom hover:underline">

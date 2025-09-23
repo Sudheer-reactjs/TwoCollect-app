@@ -12,7 +12,7 @@ const StoreIntegrations = () => {
                     </h1>
                     <p className="max-w-3xl mx-auto md:text-lg mb-8">Connect your e-commerce store with TwoCollect in just a few clicks. We support popular platforms like Shopify, WooCommerce, and more, making shipping automation effortless.</p>
                     {/* Logos - Node Style */}
-                    <div className="relative w-full max-w-md mx-auto flex items-center justify-center flex-col">
+                   <div className="relative w-full mx-auto flex items-center justify-center flex-col">
 
                         {/* Carrier Nodes */}
                         <div className="">

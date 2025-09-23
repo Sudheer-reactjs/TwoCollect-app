@@ -53,11 +53,11 @@ const Pricing = () => {
           Pricing
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative rounded-2xl py-8 px-4 md:p-4 md:py-12 shadow-lg transition-all duration-500 hover:scale-[1.03]  ${
+              className={`relative rounded-2xl py-8 px-4 md:p-4 md:py-12 shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl ${
                 plan.isPopular
                   ? 'bg-yellow-400'
                   : 'bg-white border border-gray-200'
@@ -128,8 +128,9 @@ const Pricing = () => {
           ))}
 
           {/* Enterprise Plan (Coming Soon) */}
-          <div className="text-center rounded-2xl p-8 shadow-lg transition-all duration-500 hover:scale-[1.03] bg-gray-200 flex flex-col justify-center">
-            <h3 className="text-2xl font-bold mb-4">Enterprise Plan (Coming Soon)</h3>
+          <div className="text-center rounded-2xl p-8 shadow-inner bg-gray-100 text-gray-500 flex flex-col justify-center border border-gray-300 opacity-70">
+            <h3 className="text-xl font-semibold mb-2">Enterprise Plan</h3>
+            <p className="text-base">Coming Soon</p>
           </div>
         </div>
       </div>
