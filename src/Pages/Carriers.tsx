@@ -17,7 +17,7 @@ const Carriers = () => {
           </p>
 
           {/* Logos - Node Style */}
-          <div className="relative w-full mx-auto flex items-center justify-center flex-col">
+          <div className="relative w-full max-w-[998px] mx-auto flex items-center justify-center flex-col">
 
             {/* Carrier Nodes */}
             <div className="">
