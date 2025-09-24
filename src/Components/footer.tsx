@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Youtube, Instagram } from "lucide-react";
+import MailChimp from "./MailChimp";
 const TwitterX = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -48,16 +49,7 @@ export default function Footer() {
           <p className="text-left"> 
             Subscribe to Newsletters
           </p>
-          <div className="flex flex-col w-full gap-2  ">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="px-4 py-3 text-sm w-full rounded-full bg-[#f0f4f8] text-[#0c0c0c]  outline-none"
-            />
-            <button className="bg-[#0235a8] rounded-full px-6 py-3 text-white  text-sm hover:bg-[#156ab0] transition">
-             Subscribe now
-            </button>
-          </div>
+           <MailChimp />
         </div>
         {/*  Social Media */}
 <div className="flex gap-4">
