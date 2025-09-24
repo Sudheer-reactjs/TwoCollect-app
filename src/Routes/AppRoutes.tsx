@@ -17,6 +17,7 @@ import StartFree from "../Pages/StartFree";
 import ContactUs from "../Pages/ContactUs";
 import Authentification from "../Pages/Authentification";
 import BecomePartner from "../Pages/BecomePartner";
+import PressAndMedia from "../Pages/PressAndMedia";
 
 export default function   AppRoutes() { 
   return (
@@ -40,6 +41,7 @@ export default function   AppRoutes() {
         <Route path="contact-us" element={<ContactUs />} />
         <Route path="authentification" element={<Authentification />} />
         <Route path="become-partner" element={<BecomePartner />} />
+        <Route path="press-and-media" element={<PressAndMedia />} />
       </Routes>
       </main>
       <Footer />

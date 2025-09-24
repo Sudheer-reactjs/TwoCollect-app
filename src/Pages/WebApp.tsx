@@ -22,7 +22,6 @@ const PersonalizeDeliveryItem = [
     { title: "Printing labels in bulk", desc: "Print labels for several parcels at once in order to handle a spike in orders." },
     { title: "Manifests", desc: "Produce daily manifests and SCAN forms in order to meet carrier specifications." },
     { title: "Reporting and analytics", desc: "A quick overview of your shipping expenses and effectiveness" },
-    { title: "Returns", desc: "To cut expenses, ask for reimbursement for any wasted labels." },
   ];
 
  const TwoMethodsItem = [

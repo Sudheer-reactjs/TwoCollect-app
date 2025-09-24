@@ -21,26 +21,26 @@ export default function Footer() {
 
        <div className="grid grid-cols-1 md:grid-cols-4 gap-7">
           <div className="flex flex-col gap-3 text-sm">
-          <a href="#">What We Do</a>
-          <a href="#">Connect to Domestic and International Carriers</a>
-          <a href="#">Multi-Carrier Rate Comparison</a>
-          <a href="#">Label Generation and Tracking </a>
-          <a href="#">E-Commerce Store Integration </a>
+          <a href="/">What We Do</a>
+          <a href="authentification">Connect to Domestic and International Carriers</a>
+          <a href="shipping-calculator">Multi-Carrier Rate Comparison</a>
+          <a href="authentification">Label Generation and Tracking </a>
+          <a href="store-integrations">E-Commerce Store Integration </a>
           <a href="#">Return Management Solutions</a>
           <a href="#">Payment & Wallet Options </a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
           <a href="company">Company</a>
-          <a href="#">About TwoCollect</a>
+          <a href="/">About TwoCollect</a>
           <a href="shipping-carriers">Shipping Carriers</a>
-          <a href="#">Press and Media</a> 
+          <a href="press-and-media">Press and Media</a> 
           <a href="terms">Terms and Conditions </a>
           <a href="privacy">Privacy Policy</a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
-          <a href="#">Partners</a>
-          <a href="#">Carrier Partners</a>
-          <a href="#">Technology Partners</a>
+          <a href="become-partner">Partners</a>
+          <a href="shipping-carriers">Carrier Partners</a>
+          <a href="store-integrations ">Technology Partners</a>
         </div>
         <div className="flex flex-col  gap-3 text-sm ">
           <a href="contact-us">Contact Us</a>

@@ -14,14 +14,14 @@ const steps = [
     id: 2,
     title: "Add a Shipment or Connect Your Store",
     description:
-      "Use our integrations to connect your online store (like Shopify or WooCommerce) or manually enter shipment details. Upload product info, shipping preferences, and customer addresses in seconds",
+      "Use our integrations to connect your online store (like Shopify or WooCommerce) or manually enter shipment details. Upload product info, shipping preferences, and customer addresses in seconds.",
     screen: Step1,
   },
   {
     id: 3,
     title: "Compare Carrier Rates",
     description:
-      "See all available shipping rates from trusted carriers in real time. Choose based on cost, speed, delivery method, or customer preferences — all optimized for the UAE and global delivery",
+      "See all available shipping rates from trusted carriers in real time. Choose based on cost, speed, delivery method, or customer preferences — all optimized for the UAE and global delivery.",
     screen: Step1,
   },
   {
