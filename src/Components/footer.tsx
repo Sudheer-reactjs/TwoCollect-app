@@ -26,8 +26,7 @@ export default function Footer() {
           <a href="shipping-calculator">Multi-Carrier Rate Comparison</a>
           <a href="authentification">Label Generation and Tracking </a>
           <a href="store-integrations">E-Commerce Store Integration </a>
-          <a href="#">Return Management Solutions</a>
-          <a href="#">Payment & Wallet Options </a>
+          <a href="payment-wallet-options">Payment & Wallet Options </a>
         </div>
         <div className="flex flex-col  gap-3 text-sm">
           <a href="company">Company</a>

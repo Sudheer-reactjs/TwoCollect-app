@@ -18,6 +18,7 @@ import ContactUs from "../Pages/ContactUs";
 import Authentification from "../Pages/Authentification";
 import BecomePartner from "../Pages/BecomePartner";
 import PressAndMedia from "../Pages/PressAndMedia";
+import PaymentWalletOptions from "../Pages/PaymentWalletOptions";
 
 export default function   AppRoutes() { 
   return (
@@ -42,6 +43,7 @@ export default function   AppRoutes() {
         <Route path="authentification" element={<Authentification />} />
         <Route path="become-partner" element={<BecomePartner />} />
         <Route path="press-and-media" element={<PressAndMedia />} />
+        <Route path="payment-wallet-options" element={<PaymentWalletOptions />} />
       </Routes>
       </main>
       <Footer />
