@@ -36,7 +36,7 @@ export default function Header() {
               <div className="relative z-30">
                 <button
                   onClick={() => toggleDropdown("products")}
-                  className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom "
+                  className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] hover:text-white hover:bg-bluecustom "
                 >
                   Products <ChevronDown className="w-4 h-4 ml-1" />
                 </button>
@@ -66,13 +66,13 @@ export default function Header() {
                   </div>
                 )}
               </div>
-                 <a href="/how-it-works" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
+                 <a href="/how-it-works" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] hover:text-white hover:bg-bluecustom">
                 How it works
               </a>
-              <a href="/shipping-calculator" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
+              <a href="/shipping-calculator" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] hover:text-white hover:bg-bluecustom">
                 Shipping calculator
               </a>
-              <a href="/pricing" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom">
+              <a href="/pricing" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] hover:text-white hover:bg-bluecustom">
                 Pricing
               </a>
 
@@ -80,7 +80,7 @@ export default function Header() {
               <div className="relative z-30">
                 <button
                   onClick={() => toggleDropdown("partners")}
-                  className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] hover:text-white hover:bg-bluecustom"
+                  className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] hover:text-white hover:bg-bluecustom"
                 >
                   Partners <ChevronDown className="w-4 h-4 ml-1" />
                 </button>
@@ -115,7 +115,7 @@ export default function Header() {
                 START FOR FREE
               </a>
               <p className="text-xs">or</p>
-              <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] text-bluecustom hover:text-white hover:bg-bluecustom">
+              <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] text-bluecustom hover:text-white hover:bg-bluecustom">
                 Login
               </a>
             </div>
@@ -223,7 +223,7 @@ export default function Header() {
                   START FOR FREE
                 </a>
                 <p className="text-xs">or</p>
-                <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full lg:min-w-[124px] text-bluecustom">
+                <a href="authentification" className="flex items-center justify-center text-base font-medium transition-colors duration-200 py-3 px-4 rounded-full xl:min-w-[124px] text-bluecustom">
                   Login
                 </a>
               </div>

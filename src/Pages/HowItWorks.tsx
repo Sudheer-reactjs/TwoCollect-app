@@ -58,7 +58,7 @@ export default function HowItWorks() {
               <button
                 key={step.id}
                 onClick={() => setActiveStep(step.id)}
-                className={`flex flex-col items-center px-3 lg:px-6 py-4 rounded-2xl shadow-md transition-all duration-300 w-40 lg:w-full
+                className={`flex flex-col items-center px-3 lg:px-6 py-4 rounded-2xl shadow-md transition-all duration-300 w-36 md:w-40 lg:w-full
                 ${activeStep === step.id
                     ? "bg-bluecustom text-white scale-105"
                     : "bg-white  hover:bg-blue-50"

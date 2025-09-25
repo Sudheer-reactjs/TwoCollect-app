@@ -9,7 +9,7 @@ export default function Authentification() {
   return (
     <div className="flex min-h-screen">
       {/* Left side form */}
-      <div className="flex flex-col justify-center items-center w-full md:w-1/2 px-8 md:px-20 bg-gray-100">
+      <div className="flex flex-col justify-center items-center w-full md:w-1/2 px-8 md:px-20">
         {/* Tabs */}
         <div className="flex space-x-6 mb-6 text-lg font-medium">
           <button

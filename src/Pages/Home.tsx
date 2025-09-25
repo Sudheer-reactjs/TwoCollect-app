@@ -9,7 +9,7 @@ const Home = () => {
             <section className="py-10 md:py-14">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2  gap-6 md:gap-10 items-center">
                     <div>
-                        <h1 className="text-4xl md:text-6xl !leading-[1.4] font-bold mb-2">
+                        <h1 className="text-4xl md:text-5xl  lg:text-6xl !leading-[1.4] font-bold mb-2">
                             Simplify your Shipping with One Platform
                         </h1>
                         <h3 className="text-2xl md:text-3xl  mb-6">A Technology Showcase</h3>
@@ -32,7 +32,7 @@ const Home = () => {
             <section className="pt-6 md:pt-14 pb-9">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Heading */}
-                    <h2 className="text-3xl md:text-5xl !leading-[1.4]  font-bold mx-auto max-w-80 md:max-w-md text-center w-full mb-12 
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl !leading-[1.4]  font-bold mx-auto max-w-80 md:max-w-md text-center w-full mb-12 
   bg-gradient-to-r from-[#156ab0] via-[#0235a8] to-[#156ab0] 
   bg-clip-text text-transparent">
                         Solutions for Every Shipping Need
