@@ -37,7 +37,7 @@ const PersonalizeDeliveryItem = [
                         Create Shipping Labels with TwoCollect
                     </h2>
                     <p className="text-xl md:text-2xl mb-4">The shipping solution that automates and streamlines your process to save you time and money.</p>
-                    <a href="start-free" className="cartoon-btn bg-[#a7bd37] inline-block text-white px-6 py-4 md:px-10 md:py-6 rounded-full text-2xl transition-colors duration-200 font-medium">START FOR FREE</a>
+                    <a href="authentification" className="cartoon-btn bg-[#a7bd37] inline-block text-white px-6 py-4 md:px-10 md:py-6 rounded-full text-2xl transition-colors duration-200 font-medium">START FOR FREE</a>
                 </div>
             </section>
             
