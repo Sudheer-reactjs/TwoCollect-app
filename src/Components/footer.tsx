@@ -101,7 +101,7 @@ export default function Footer() {
       </div>
       <div className="bg-[#0a0a0a] mt-6 py-3">
         <div className="max-w-[1466px] mx-auto px-4 sm:px-6 lg:px-8 relative z-5">
-          <p className="text-sm text-center">Copyright © 2025 TwoCollect. All rights reserved.</p>
+          <p className="text-sm ">Copyright © 2025 TwoCollect. All rights reserved.</p>
         </div>
       </div>
     </footer>
