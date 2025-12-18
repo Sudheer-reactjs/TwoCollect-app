@@ -130,7 +130,7 @@ const Pricing = () => {
           {/* Enterprise Plan (Coming Soon) */}
           <div className="text-center rounded-2xl p-8 shadow-inner bg-gray-100 text-gray-500 flex flex-col justify-center border border-gray-300 opacity-70">
             <h3 className="text-xl font-semibold mb-2">Enterprise Plan</h3>
-            <p className="text-base">Coming Soon</p>
+            <p className="text-base">Coming Soonss</p>
           </div> 
         </div>
       </div>
